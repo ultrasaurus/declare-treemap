@@ -1,0 +1,185 @@
+// S&P 500 treemap — showcases TreemapLayout 
+//
+// Data: sp500.json, a static asset provides 
+// symbol/name/sector/marketcap/employees — no server needed.
+
+include [ "treemap-layout.declare" ]
+
+class ExpandIcon extends Icon [
+    draw(d: Draw) {
+        d.scale(unit, unit)
+        d.strokeStyle = ink
+        d.lineWidth = weight / unit
+        d.lineCap = "round"
+        d.lineJoin = "round"
+        d.beginPath()
+        d.moveTo(4, 12); d.lineTo(12, 4)
+        d.moveTo(4, 7); d.lineTo(4, 12); d.lineTo(9, 12)
+        d.moveTo(7, 4); d.lineTo(12, 4); d.lineTo(12, 9)
+        d.stroke()
+        }
+    ]
+
+// One company leaf, shared by the sector-nested view and the expanded
+// single-sector view. Carries both raw metrics (not just the active one) so
+// the tooltip can always show market cap and employees regardless of which
+// is currently driving box size.
+class CompanyBox extends View [
+    symbol: string = "",
+    longName: string = "",
+    marketcap: number = 0,
+    employees: number = 0,
+    boxColor: Color = 0x4C78A8,
+    weight: number = { app.weightMetric == "marketcap" ? this.marketcap : this.employees },
+    weightLabel: string = { app.formatValue(app.weightMetric, this.weight) },
+    labelVisible: boolean = { this.width > 32 && this.height > 15 },
+    valueVisible: boolean = { this.width > 50 && this.height > 32 },
+    fill = { this.boxColor },
+    stroke = stroke(1, 0x1a1a1a),
+    tip = { `${this.longName} · Market Cap: ${app.formatValue("marketcap", this.marketcap)} · Employees: ${app.formatValue("employees", this.employees)}` },
+    Text [ x = 4, y = 3, fontSize = 11, textColor = #ffffff,
+        text = { classroot.symbol },
+        visible = { classroot.labelVisible } ],
+    Text [ x = center, y = center, fontSize = 11, fontWeight = semibold, textColor = #ffffff,
+        text = { classroot.weightLabel },
+        visible = { classroot.valueVisible } ]
+    ]
+
+App [ fill = white,
+
+    sectorColors() -> object {
+        return {
+            "Technology": 0x4C78A8,
+            "Healthcare": 0xF58518,
+            "Financial Services": 0x54A24B,
+            "Energy": 0xE45756,
+            "Industrials": 0x72B7B2,
+            "Consumer Cyclical": 0xEECA3B,
+            "Consumer Defensive": 0xB279A2,
+            "Communication Services": 0xFF9DA6,
+            "Real Estate": 0x9D755D,
+            "Basic Materials": 0xBAB0AC,
+            "Utilities": 0x5DA5DA
+            }
+        },
+
+    colorForSector(sector: string) -> Color {
+        const colors = app.sectorColors()
+        return colors[sector] || 0x808080
+        },
+
+    weightMetric: string = "marketcap",
+
+    data: DataSource [ auto = true, url = "./sp500.json" ],
+
+    formatValue(metric: string, v: number) -> string {
+        if (metric == "marketcap") {
+            if (v >= 1e12) return "$" + (v / 1e12).toFixed(2) + "T"
+            if (v >= 1e9) return "$" + (v / 1e9).toFixed(1) + "B"
+            if (v >= 1e6) return "$" + (v / 1e6).toFixed(0) + "M"
+            return "$" + v.toFixed(0)
+            }
+        if (v >= 1e6) return (v / 1e6).toFixed(2) + "M"
+        if (v >= 1e3) return (v / 1e3).toFixed(0) + "K"
+        return "" + Math.round(v)
+        },
+
+    buildGroups() -> object {
+        const rows = data.value || []
+        const metric = app.weightMetric
+        const bySector = {}
+        for (const r of rows) {
+            if (!bySector[r.sector]) bySector[r.sector] = []
+            bySector[r.sector].push(r)
+            }
+        const groups = Object.keys(bySector).map(sector => {
+            const companies = bySector[sector]
+            const total = companies.reduce((s, c) => s + (metric == "marketcap" ? c.marketcap : c.employees), 0)
+            return { sector: sector, total: total, companies: companies, color: app.colorForSector(sector) }
+            })
+        return { groups: groups }
+        },
+
+    mergedGroups: Dataset [ contents = { app.buildGroups() } ],
+
+    expandedSector: string = "",
+
+    expandedInfo() -> object {
+        const merged = mergedGroups.value || { groups: [] }
+        const g = (merged.groups || []).find(g => g.sector == app.expandedSector)
+        if (!g) return { sector: "", total: 0, companies: [], color: 0x262626 }
+        return g
+        },
+
+    expandedDataset: Dataset [ contents = { app.expandedInfo() } ],
+
+    empty: Text [ x = center, y = center, visible = { !data.loaded },
+        text = "loading S&P 500 data…" ],
+
+    header: View [ x = 0, y = 0, width = { app.width }, height = 44, fill = white,
+        Text [ x = 16, y = center, fontSize = 16, fontWeight = semibold,
+            text = "S&P 500 Treemap" ],
+        metricPicker: RadioGroup [ x = { app.width - 280 }, y = center, value = { app.weightMetric },
+            layout: SimpleLayout [ axis = x, spacing = 20 ],
+            input(v: string) { app.weightMetric = v },
+            Radio [ choice = "marketcap", label = "Market Cap" ],
+            Radio [ choice = "employees", label = "Employees" ]
+            ]
+        ],
+
+    field: View [ x = 0, y = 44, width = { app.width }, height = { app.height - 44 },
+        visible = { data.loaded && app.expandedSector == "" },
+        datapath = { mergedGroups.value },
+        layout: TreemapLayout [ margin = 3 ],
+
+        View [ datapath = :groups[],
+            weight: number = { :total },
+            color: Color = { :color },
+            labelVisible: boolean = { this.width > 90 && this.height > 22 },
+            fill = #eaeaea,
+            stroke = { stroke(2, this.color) },
+            tip = { this.labelVisible ? "" : `${:sector}  ${app.formatValue(app.weightMetric, :total)}` },
+            layout: TreemapLayout [ topInset = 26, margin = 3 ],
+
+            Text [ x = 6, y = 5, fontSize = 13, fontWeight = semibold, textColor = #2a2a2a,
+                ignoreLayout = true,
+                text = { `${:sector}  ${app.formatValue(app.weightMetric, :total)}` },
+                visible = { parent.labelVisible } ],
+
+            expandBtn: View [ x = { parent.width - 22 }, y = 2, width = 18, height = 18,
+                visible = { parent.width > 60 && parent.height > 24 },
+                onClick() { app.expandedSector = :sector },
+                ExpandIcon [ x = center, y = center, iconSize = 14, ink = #2a2a2a ]
+                ],
+
+            CompanyBox [ datapath = :companies[],
+                symbol = { :symbol }, longName = { :name },
+                marketcap = { :marketcap }, employees = { :employees },
+                boxColor = { parent.color } ]
+            ]
+        ],
+
+    expandedField: View [ x = 0, y = 44, width = { app.width }, height = { app.height - 44 },
+        visible = { app.expandedSector != "" },
+        fill = { expandedDataset.value.color },
+
+        expandedHeader: View [ x = 0, y = 0, width = { parent.width }, height = 28, fill = #eaeaea,
+            backBtn: View [ x = 4, y = 4, width = 20, height = 20,
+                onClick() { app.expandedSector = "" },
+                ArrowIcon [ x = center, y = center, dir = "left", iconSize = 14, ink = #2a2a2a ]
+                ],
+            Text [ x = 30, y = center, fontSize = 14, fontWeight = semibold, textColor = #2a2a2a,
+                text = { `${expandedDataset.value.sector}  ${app.formatValue(app.weightMetric, expandedDataset.value.total)}` } ]
+            ],
+
+        inner: View [ x = 0, y = 28, width = { parent.width }, height = { parent.height - 28 },
+            datapath = { expandedDataset.value },
+            layout: TreemapLayout [ margin = 3 ],
+
+            CompanyBox [ datapath = :companies[],
+                symbol = { :symbol }, longName = { :name },
+                marketcap = { :marketcap }, employees = { :employees },
+                boxColor = { expandedDataset.value.color } ]
+            ]
+        ]
+    ]

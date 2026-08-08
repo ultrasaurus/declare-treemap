@@ -1,0 +1,91 @@
+// Squarified treemap layout (Bruls/Huizing/van Wijk) — arranges replicated
+// children into a nested grid of rectangles sized by a `weight` attribute
+// each child declares. Pure: reads only what Layout gives it (laid children,
+// container size) and its own topInset/margin — no app-specific state.
+class TreemapLayout extends Layout [
+    topInset: number = 0,
+    margin: number = 0,
+
+    place() {
+        const kids = this.laid()
+        const w0 = this.view == null ? 0 : this.view.width
+        const h0 = this.view == null ? 0 : this.view.height
+        const ox = this.margin
+        const oy = this.topInset
+        const w = Math.max(0, w0 - this.margin * 2)
+        const h = Math.max(0, h0 - this.topInset - this.margin)
+
+        const items = []
+        for (let i = 0; i < kids.length; i++) {
+            const c = kids[i]
+            if (!c.visible || (c as any).ignoreLayout) continue
+            const weight = (c as any).weight || 0
+            if (weight <= 0) continue
+            items.push({ i: i, value: weight })
+            }
+        items.sort((a, b) => b.value - a.value)
+
+        const results = []
+        for (let i = 0; i < kids.length; i++) results.push({})
+
+        const layoutRow = (row, rx, ry, rw, rh) => {
+            const total = row.reduce((s, it) => s + it.value, 0)
+            if (total <= 0) return
+            const horizontal = rw >= rh
+            const length = horizontal ? rh : rw
+            let offset = 0
+            for (const it of row) {
+                const size = (it.value / total) * (horizontal ? rw : rh)
+                if (horizontal) {
+                    results[it.i] = { x: rx + offset, y: ry, w: size, h: length }
+                    } else {
+                    results[it.i] = { x: rx, y: ry + offset, w: length, h: size }
+                    }
+                offset += size
+                }
+            }
+        const worst = (row, length) => {
+            const sum = row.reduce((s, it) => s + it.value, 0)
+            const rmax = Math.max(...row.map(it => it.value))
+            const rmin = Math.min(...row.map(it => it.value))
+            return Math.max((length * length * rmax) / (sum * sum || 1), (sum * sum) / (length * length * rmin || 1))
+            }
+
+        let remaining = items.slice()
+        let rx = ox, ry = oy, rw = w, rh = h
+        while (remaining.length > 0) {
+            const length = Math.min(rw, rh)
+            const total = remaining.reduce((s, it) => s + it.value, 0)
+            let row = []
+            let k = 0
+            while (k < remaining.length) {
+                const candidate = row.concat([remaining[k]])
+                const scaledCandidate = candidate.map(it => ({ value: (it.value / total) * (rw * rh) }))
+                const scaledRow = row.map(it => ({ value: (it.value / total) * (rw * rh) }))
+                if (row.length === 0 || worst(scaledCandidate, length) <= worst(scaledRow, length)) {
+                    row = candidate
+                    k++
+                    } else {
+                    break
+                    }
+                }
+
+            const rowArea = row.map(it => ({ i: it.i, value: (it.value / total) * (rw * rh) }))
+            const rowLength = rowArea.reduce((s, it) => s + it.value, 0) / length
+
+            if (rw >= rh) {
+                layoutRow(rowArea, rx, ry, rowLength, rh)
+                rx += rowLength
+                rw -= rowLength
+                } else {
+                layoutRow(rowArea, rx, ry, rw, rowLength)
+                ry += rowLength
+                rh -= rowLength
+                }
+
+            remaining = remaining.slice(row.length)
+            }
+
+        return results
+        }
+    ]
