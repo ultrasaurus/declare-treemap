@@ -2,6 +2,14 @@
 // children into a nested grid of rectangles sized by a `weight` attribute
 // each child declares. Pure: reads only what Layout gives it (laid children,
 // container size) and its own topInset/margin — no app-specific state.
+//
+// `sortWeight` (optional, falls back to `weight`) decouples row ORDER from
+// box SIZE — needed to animate a treemap between two weight metrics without
+// items chaotically swapping rows every frame as a smoothly-blending weight
+// crosses another item's rank. Hold `sortWeight` at the target metric's value
+// (snaps once, instantly) while `weight` blends smoothly, and the treemap
+// reorders once at the start of a transition instead of continuously through
+// it. See treemap-demo/sp500-treemap.declare for the animated use.
 class TreemapLayout extends Layout [
     topInset: number = 0,
     margin: number = 0,
@@ -21,9 +29,11 @@ class TreemapLayout extends Layout [
             if (!c.visible || (c as any).ignoreLayout) continue
             const weight = (c as any).weight || 0
             if (weight <= 0) continue
-            items.push({ i: i, value: weight })
+            const sortWeightRaw = (c as any).sortWeight
+            const sortValue = (typeof sortWeightRaw == "number") ? sortWeightRaw : weight
+            items.push({ i: i, value: weight, sortValue: sortValue })
             }
-        items.sort((a, b) => b.value - a.value)
+        items.sort((a, b) => b.sortValue - a.sortValue)
 
         const results = []
         for (let i = 0; i < kids.length; i++) results.push({})

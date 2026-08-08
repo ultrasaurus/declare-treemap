@@ -23,15 +23,27 @@ class ExpandIcon extends Icon [
 // One company leaf, shared by the sector-nested view and the expanded
 // single-sector view. Carries both raw metrics (not just the active one) so
 // the tooltip can always show market cap and employees regardless of which
-// is currently driving box size.
+// is currently driving box size — and both metrics' SHARE of the S&P-500-wide
+// total for that metric, which is what `weight` actually blends between (see
+// app.metricBlend): raw marketcap (trillions) and raw employees (thousands)
+// are such different magnitudes that lerping the raw numbers would be
+// invisible for most of the transition and then snap at the very end: sizing
+// off two comparable 0..1 shares instead keeps the glide smooth throughout.
 class CompanyBox extends View [
     symbol: string = "",
     longName: string = "",
     marketcap: number = 0,
     employees: number = 0,
+    shareMarketcap: number = 0,
+    shareEmployees: number = 0,
     boxColor: Color = 0x4C78A8,
-    weight: number = { app.weightMetric == "marketcap" ? this.marketcap : this.employees },
-    weightLabel: string = { app.formatValue(app.weightMetric, this.weight) },
+    weight: number = { app.lerp(this.shareMarketcap, this.shareEmployees, app.metricBlend) },
+    // Target metric's share, not blended — holds row order steady through
+    // the transition instead of resorting every frame (see TreemapLayout).
+    sortWeight: number = { app.weightMetric == "marketcap" ? this.shareMarketcap : this.shareEmployees },
+    weightLabel: string = {
+        app.formatValue(app.weightMetric, app.weightMetric == "marketcap" ? this.marketcap : this.employees)
+        },
     labelVisible: boolean = { this.width > 32 && this.height > 15 },
     valueVisible: boolean = { this.width > 50 && this.height > 32 },
     fill = { this.boxColor },
@@ -70,6 +82,21 @@ App [ fill = white,
 
     weightMetric: string = "marketcap",
 
+    lerp(a: number, b: number, t: number) -> number { return a + (b - a) * t },
+
+    // 0 = fully market-cap-sized, 1 = fully employees-sized. Spring, not
+    // Animator — Animator.started needs an imperative .start() (the #19
+    // workaround, see ../declare-bug-investigation/animator-reactive-started.md)
+    // and an explicit-start Animator showed a directional asymmetry (animated
+    // one way, snapped the other) that a reactive Spring.to sidesteps
+    // entirely: no .start() call, no ordering-within-a-handler question,
+    // just retriggers whenever `to` changes — confirmed solid earlier this
+    // session (see spring-animator.md's retest). ~1s settle at these values.
+    metricBlend: number = 0,
+    metricBlendTarget() -> number { return app.weightMetric == "marketcap" ? 0 : 1 },
+    metricBlendSpring: Spring [ attribute = metricBlend, to = { app.metricBlendTarget() },
+        stiffness = 90, damping = 20, mass = 1 ],
+
     data: DataSource [ auto = true, url = "./sp500.json" ],
 
     formatValue(metric: string, v: number) -> string {
@@ -86,16 +113,27 @@ App [ fill = white,
 
     buildGroups() -> object {
         const rows = data.value || []
-        const metric = app.weightMetric
+        const totalMarketcapAll = rows.reduce((s, r) => s + r.marketcap, 0)
+        const totalEmployeesAll = rows.reduce((s, r) => s + r.employees, 0)
+        const companies = rows.map(r => ({
+            ...r,
+            shareMarketcap: totalMarketcapAll > 0 ? r.marketcap / totalMarketcapAll : 0,
+            shareEmployees: totalEmployeesAll > 0 ? r.employees / totalEmployeesAll : 0
+            }))
         const bySector = {}
-        for (const r of rows) {
-            if (!bySector[r.sector]) bySector[r.sector] = []
-            bySector[r.sector].push(r)
+        for (const c of companies) {
+            if (!bySector[c.sector]) bySector[c.sector] = []
+            bySector[c.sector].push(c)
             }
         const groups = Object.keys(bySector).map(sector => {
-            const companies = bySector[sector]
-            const total = companies.reduce((s, c) => s + (metric == "marketcap" ? c.marketcap : c.employees), 0)
-            return { sector: sector, total: total, companies: companies, color: app.colorForSector(sector) }
+            const sectorCompanies = bySector[sector]
+            const totalMarketcap = sectorCompanies.reduce((s, c) => s + c.marketcap, 0)
+            const totalEmployees = sectorCompanies.reduce((s, c) => s + c.employees, 0)
+            const shareMarketcap = sectorCompanies.reduce((s, c) => s + c.shareMarketcap, 0)
+            const shareEmployees = sectorCompanies.reduce((s, c) => s + c.shareEmployees, 0)
+            return { sector: sector, totalMarketcap: totalMarketcap, totalEmployees: totalEmployees,
+                shareMarketcap: shareMarketcap, shareEmployees: shareEmployees,
+                companies: sectorCompanies, color: app.colorForSector(sector) }
             })
         return { groups: groups }
         },
@@ -107,7 +145,7 @@ App [ fill = white,
     expandedInfo() -> object {
         const merged = mergedGroups.value || { groups: [] }
         const g = (merged.groups || []).find(g => g.sector == app.expandedSector)
-        if (!g) return { sector: "", total: 0, companies: [], color: 0x262626 }
+        if (!g) return { sector: "", totalMarketcap: 0, totalEmployees: 0, shareMarketcap: 0, shareEmployees: 0, companies: [], color: 0x262626 }
         return g
         },
 
@@ -133,17 +171,19 @@ App [ fill = white,
         layout: TreemapLayout [ margin = 3 ],
 
         View [ datapath = :groups[],
-            weight: number = { :total },
+            weight: number = { app.lerp(:shareMarketcap, :shareEmployees, app.metricBlend) },
+            sortWeight: number = { app.weightMetric == "marketcap" ? :shareMarketcap : :shareEmployees },
+            rawTotal: number = { app.weightMetric == "marketcap" ? :totalMarketcap : :totalEmployees },
             color: Color = { :color },
             labelVisible: boolean = { this.width > 90 && this.height > 22 },
             fill = #eaeaea,
             stroke = { stroke(2, this.color) },
-            tip = { this.labelVisible ? "" : `${:sector}  ${app.formatValue(app.weightMetric, :total)}` },
+            tip = { this.labelVisible ? "" : `${:sector}  ${app.formatValue(app.weightMetric, this.rawTotal)}` },
             layout: TreemapLayout [ topInset = 26, margin = 3 ],
 
             Text [ x = 6, y = 5, fontSize = 13, fontWeight = semibold, textColor = #2a2a2a,
                 ignoreLayout = true,
-                text = { `${:sector}  ${app.formatValue(app.weightMetric, :total)}` },
+                text = { `${:sector}  ${app.formatValue(app.weightMetric, parent.rawTotal)}` },
                 visible = { parent.labelVisible } ],
 
             expandBtn: View [ x = { parent.width - 22 }, y = 2, width = 18, height = 18,
@@ -155,6 +195,7 @@ App [ fill = white,
             CompanyBox [ datapath = :companies[],
                 symbol = { :symbol }, longName = { :name },
                 marketcap = { :marketcap }, employees = { :employees },
+                shareMarketcap = { :shareMarketcap }, shareEmployees = { :shareEmployees },
                 boxColor = { parent.color } ]
             ]
         ],
@@ -169,7 +210,10 @@ App [ fill = white,
                 ArrowIcon [ x = center, y = center, dir = "left", iconSize = 14, ink = #2a2a2a ]
                 ],
             Text [ x = 30, y = center, fontSize = 14, fontWeight = semibold, textColor = #2a2a2a,
-                text = { `${expandedDataset.value.sector}  ${app.formatValue(app.weightMetric, expandedDataset.value.total)}` } ]
+                text = {
+                    `${expandedDataset.value.sector}  ${app.formatValue(app.weightMetric,
+                        app.weightMetric == "marketcap" ? expandedDataset.value.totalMarketcap : expandedDataset.value.totalEmployees)}`
+                    } ]
             ],
 
         inner: View [ x = 0, y = 28, width = { parent.width }, height = { parent.height - 28 },
@@ -179,6 +223,7 @@ App [ fill = white,
             CompanyBox [ datapath = :companies[],
                 symbol = { :symbol }, longName = { :name },
                 marketcap = { :marketcap }, employees = { :employees },
+                shareMarketcap = { :shareMarketcap }, shareEmployees = { :shareEmployees },
                 boxColor = { expandedDataset.value.color } ]
             ]
         ]
