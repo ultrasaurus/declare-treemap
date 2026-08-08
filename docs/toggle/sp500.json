@@ -1,0 +1,3516 @@
+[
+ {
+  "symbol": "AAPL",
+  "name": "Apple Inc.",
+  "sector": "Technology",
+  "marketcap": 3846819807232.0,
+  "employees": 164000.0
+ },
+ {
+  "symbol": "NVDA",
+  "name": "NVIDIA Corporation",
+  "sector": "Technology",
+  "marketcap": 3298803056640.0,
+  "employees": 29600.0
+ },
+ {
+  "symbol": "MSFT",
+  "name": "Microsoft Corporation",
+  "sector": "Technology",
+  "marketcap": 3246068596736.0,
+  "employees": 228000.0
+ },
+ {
+  "symbol": "AMZN",
+  "name": "Amazon.com, Inc.",
+  "sector": "Consumer Cyclical",
+  "marketcap": 2365033807872.0,
+  "employees": 1551000.0
+ },
+ {
+  "symbol": "GOOGL",
+  "name": "Alphabet Inc.",
+  "sector": "Communication Services",
+  "marketcap": 2351625142272.0,
+  "employees": 181269.0
+ },
+ {
+  "symbol": "GOOG",
+  "name": "Alphabet Inc.",
+  "sector": "Communication Services",
+  "marketcap": 2351623045120.0,
+  "employees": 181269.0
+ },
+ {
+  "symbol": "META",
+  "name": "Meta Platforms, Inc.",
+  "sector": "Communication Services",
+  "marketcap": 1477457739776.0,
+  "employees": 72404.0
+ },
+ {
+  "symbol": "TSLA",
+  "name": "Tesla, Inc.",
+  "sector": "Consumer Cyclical",
+  "marketcap": 1351627833344.0,
+  "employees": 140473.0
+ },
+ {
+  "symbol": "AVGO",
+  "name": "Broadcom Inc.",
+  "sector": "Technology",
+  "marketcap": 1031217348608.0,
+  "employees": 20000.0
+ },
+ {
+  "symbol": "BRK-B",
+  "name": "Berkshire Hathaway Inc.",
+  "sector": "Financial Services",
+  "marketcap": 978776031232.0,
+  "employees": 396500.0
+ },
+ {
+  "symbol": "WMT",
+  "name": "Walmart Inc.",
+  "sector": "Consumer Defensive",
+  "marketcap": 740999888896.0,
+  "employees": 2100000.0
+ },
+ {
+  "symbol": "LLY",
+  "name": "Eli Lilly and Company",
+  "sector": "Healthcare",
+  "marketcap": 690458853376.0,
+  "employees": 43000.0
+ },
+ {
+  "symbol": "JPM",
+  "name": "JPMorgan Chase & Co.",
+  "sector": "Financial Services",
+  "marketcap": 668924837888.0,
+  "employees": 316043.0
+ },
+ {
+  "symbol": "V",
+  "name": "Visa Inc.",
+  "sector": "Financial Services",
+  "marketcap": 615235846144.0,
+  "employees": 0
+ },
+ {
+  "symbol": "MA",
+  "name": "Mastercard Incorporated",
+  "sector": "Financial Services",
+  "marketcap": 484642324480.0,
+  "employees": 33400.0
+ },
+ {
+  "symbol": "ORCL",
+  "name": "Oracle Corporation",
+  "sector": "Technology",
+  "marketcap": 474532249600.0,
+  "employees": 159000.0
+ },
+ {
+  "symbol": "XOM",
+  "name": "Exxon Mobil Corporation",
+  "sector": "Energy",
+  "marketcap": 465308188672.0,
+  "employees": 62000.0
+ },
+ {
+  "symbol": "UNH",
+  "name": "UnitedHealth Group Incorporated",
+  "sector": "Healthcare",
+  "marketcap": 460261654528.0,
+  "employees": 440000.0
+ },
+ {
+  "symbol": "COST",
+  "name": "Costco Wholesale Corporation",
+  "sector": "Consumer Defensive",
+  "marketcap": 423510736896.0,
+  "employees": 333000.0
+ },
+ {
+  "symbol": "PG",
+  "name": "The Procter & Gamble Company",
+  "sector": "Consumer Defensive",
+  "marketcap": 395788025856.0,
+  "employees": 108000.0
+ },
+ {
+  "symbol": "HD",
+  "name": "The Home Depot, Inc.",
+  "sector": "Consumer Cyclical",
+  "marketcap": 389994315776.0,
+  "employees": 465000.0
+ },
+ {
+  "symbol": "NFLX",
+  "name": "Netflix, Inc.",
+  "sector": "Communication Services",
+  "marketcap": 388580671488.0,
+  "employees": 13000.0
+ },
+ {
+  "symbol": "JNJ",
+  "name": "Johnson & Johnson",
+  "sector": "Healthcare",
+  "marketcap": 347828879360.0,
+  "employees": 131900.0
+ },
+ {
+  "symbol": "BAC",
+  "name": "Bank of America Corporation",
+  "sector": "Financial Services",
+  "marketcap": 338911100928.0,
+  "employees": 213000.0
+ },
+ {
+  "symbol": "CRM",
+  "name": "Salesforce, Inc.",
+  "sector": "Technology",
+  "marketcap": 328873050112.0,
+  "employees": 72682.0
+ },
+ {
+  "symbol": "ABBV",
+  "name": "AbbVie Inc.",
+  "sector": "Healthcare",
+  "marketcap": 310274424832.0,
+  "employees": 50000.0
+ },
+ {
+  "symbol": "KO",
+  "name": "The Coca-Cola Company",
+  "sector": "Consumer Defensive",
+  "marketcap": 269452886016.0,
+  "employees": 79100.0
+ },
+ {
+  "symbol": "TMUS",
+  "name": "T-Mobile US, Inc.",
+  "sector": "Communication Services",
+  "marketcap": 255667552256.0,
+  "employees": 67000.0
+ },
+ {
+  "symbol": "CVX",
+  "name": "Chevron Corporation",
+  "sector": "Energy",
+  "marketcap": 254690115584.0,
+  "employees": 45600.0
+ },
+ {
+  "symbol": "MRK",
+  "name": "Merck & Co., Inc.",
+  "sector": "Healthcare",
+  "marketcap": 248031199232.0,
+  "employees": 70000.0
+ },
+ {
+  "symbol": "WFC",
+  "name": "Wells Fargo & Company",
+  "sector": "Financial Services",
+  "marketcap": 234196303872.0,
+  "employees": 220167.0
+ },
+ {
+  "symbol": "CSCO",
+  "name": "Cisco Systems, Inc.",
+  "sector": "Technology",
+  "marketcap": 233071116288.0,
+  "employees": 90400.0
+ },
+ {
+  "symbol": "ACN",
+  "name": "Accenture plc",
+  "sector": "Technology",
+  "marketcap": 229157109760.0,
+  "employees": 774000.0
+ },
+ {
+  "symbol": "NOW",
+  "name": "ServiceNow, Inc.",
+  "sector": "Technology",
+  "marketcap": 225143422976.0,
+  "employees": 22668.0
+ },
+ {
+  "symbol": "AXP",
+  "name": "American Express Company",
+  "sector": "Financial Services",
+  "marketcap": 210382487552.0,
+  "employees": 74600.0
+ },
+ {
+  "symbol": "MCD",
+  "name": "McDonald's Corporation",
+  "sector": "Consumer Cyclical",
+  "marketcap": 209740349440.0,
+  "employees": 100000.0
+ },
+ {
+  "symbol": "PEP",
+  "name": "PepsiCo, Inc.",
+  "sector": "Consumer Defensive",
+  "marketcap": 209626349568.0,
+  "employees": 318000.0
+ },
+ {
+  "symbol": "BX",
+  "name": "Blackstone Inc.",
+  "sector": "Financial Services",
+  "marketcap": 207208415232.0,
+  "employees": 4735.0
+ },
+ {
+  "symbol": "IBM",
+  "name": "International Business Machines Corporation",
+  "sector": "Technology",
+  "marketcap": 206528708608.0,
+  "employees": 282200.0
+ },
+ {
+  "symbol": "DIS",
+  "name": "The Walt Disney Company",
+  "sector": "Communication Services",
+  "marketcap": 202879614976.0,
+  "employees": 173250.0
+ },
+ {
+  "symbol": "LIN",
+  "name": "Linde plc",
+  "sector": "Basic Materials",
+  "marketcap": 202038607872.0,
+  "employees": 65596.0
+ },
+ {
+  "symbol": "TMO",
+  "name": "Thermo Fisher Scientific Inc.",
+  "sector": "Healthcare",
+  "marketcap": 200449114112.0,
+  "employees": 122000.0
+ },
+ {
+  "symbol": "MS",
+  "name": "Morgan Stanley",
+  "sector": "Financial Services",
+  "marketcap": 198866780160.0,
+  "employees": 80000.0
+ },
+ {
+  "symbol": "ABT",
+  "name": "Abbott Laboratories",
+  "sector": "Healthcare",
+  "marketcap": 198127370240.0,
+  "employees": 114000.0
+ },
+ {
+  "symbol": "ADBE",
+  "name": "Adobe Inc.",
+  "sector": "Technology",
+  "marketcap": 196844240896.0,
+  "employees": 29945.0
+ },
+ {
+  "symbol": "AMD",
+  "name": "Advanced Micro Devices, Inc.",
+  "sector": "Technology",
+  "marketcap": 193455177728.0,
+  "employees": 26000.0
+ },
+ {
+  "symbol": "PM",
+  "name": "Philip Morris International Inc.",
+  "sector": "Consumer Defensive",
+  "marketcap": 193140981760.0,
+  "employees": 82700.0
+ },
+ {
+  "symbol": "ISRG",
+  "name": "Intuitive Surgical, Inc.",
+  "sector": "Healthcare",
+  "marketcap": 186790952960.0,
+  "employees": 13676.0
+ },
+ {
+  "symbol": "PLTR",
+  "name": "Palantir Technologies Inc.",
+  "sector": "Technology",
+  "marketcap": 183494524928.0,
+  "employees": 3892.0
+ },
+ {
+  "symbol": "GE",
+  "name": "GE Aerospace",
+  "sector": "Industrials",
+  "marketcap": 182225174528.0,
+  "employees": 125000.0
+ },
+ {
+  "symbol": "INTU",
+  "name": "Intuit Inc.",
+  "sector": "Technology",
+  "marketcap": 180095795200.0,
+  "employees": 18800.0
+ },
+ {
+  "symbol": "GS",
+  "name": "The Goldman Sachs Group, Inc.",
+  "sector": "Financial Services",
+  "marketcap": 177704452096.0,
+  "employees": 46400.0
+ },
+ {
+  "symbol": "CAT",
+  "name": "Caterpillar Inc.",
+  "sector": "Industrials",
+  "marketcap": 176724836352.0,
+  "employees": 113200.0
+ },
+ {
+  "symbol": "TXN",
+  "name": "Texas Instruments Incorporated",
+  "sector": "Technology",
+  "marketcap": 170465984512.0,
+  "employees": 34000.0
+ },
+ {
+  "symbol": "QCOM",
+  "name": "QUALCOMM Incorporated",
+  "sector": "Technology",
+  "marketcap": 169860792320.0,
+  "employees": 49000.0
+ },
+ {
+  "symbol": "VZ",
+  "name": "Verizon Communications Inc.",
+  "sector": "Communication Services",
+  "marketcap": 168090517504.0,
+  "employees": 101200.0
+ },
+ {
+  "symbol": "BKNG",
+  "name": "Booking Holdings Inc.",
+  "sector": "Consumer Cyclical",
+  "marketcap": 167091666944.0,
+  "employees": 24200.0
+ },
+ {
+  "symbol": "DHR",
+  "name": "Danaher Corporation",
+  "sector": "Healthcare",
+  "marketcap": 165075959808.0,
+  "employees": 61000.0
+ },
+ {
+  "symbol": "T",
+  "name": "AT&T Inc.",
+  "sector": "Communication Services",
+  "marketcap": 163237838848.0,
+  "employees": 143630.0
+ },
+ {
+  "symbol": "BLK",
+  "name": "BlackRock, Inc.",
+  "sector": "Financial Services",
+  "marketcap": 159322472448.0,
+  "employees": 20400.0
+ },
+ {
+  "symbol": "RTX",
+  "name": "RTX Corporation",
+  "sector": "Industrials",
+  "marketcap": 155037220864.0,
+  "employees": 185000.0
+ },
+ {
+  "symbol": "SPGI",
+  "name": "S&P Global Inc.",
+  "sector": "Financial Services",
+  "marketcap": 152608636928.0,
+  "employees": 40450.0
+ },
+ {
+  "symbol": "PFE",
+  "name": "Pfizer Inc.",
+  "sector": "Healthcare",
+  "marketcap": 149381857280.0,
+  "employees": 88000.0
+ },
+ {
+  "symbol": "HON",
+  "name": "Honeywell International Inc.",
+  "sector": "Industrials",
+  "marketcap": 148464402432.0,
+  "employees": 95000.0
+ },
+ {
+  "symbol": "NEE",
+  "name": "NextEra Energy, Inc.",
+  "sector": "Utilities",
+  "marketcap": 147382190080.0,
+  "employees": 16800.0
+ },
+ {
+  "symbol": "CMCSA",
+  "name": "Comcast Corporation",
+  "sector": "Communication Services",
+  "marketcap": 146250366976.0,
+  "employees": 186000.0
+ },
+ {
+  "symbol": "ANET",
+  "name": "Arista Networks Inc",
+  "sector": "Technology",
+  "marketcap": 142113521664.0,
+  "employees": 4023.0
+ },
+ {
+  "symbol": "AMGN",
+  "name": "Amgen Inc.",
+  "sector": "Healthcare",
+  "marketcap": 141575438336.0,
+  "employees": 26700.0
+ },
+ {
+  "symbol": "PGR",
+  "name": "The Progressive Corporation",
+  "sector": "Financial Services",
+  "marketcap": 140577062912.0,
+  "employees": 61432.0
+ },
+ {
+  "symbol": "LOW",
+  "name": "Lowe's Companies, Inc.",
+  "sector": "Consumer Cyclical",
+  "marketcap": 139875090432.0,
+  "employees": 300000.0
+ },
+ {
+  "symbol": "SYK",
+  "name": "Stryker Corporation",
+  "sector": "Healthcare",
+  "marketcap": 138991353856.0,
+  "employees": 52000.0
+ },
+ {
+  "symbol": "UNP",
+  "name": "Union Pacific Corporation",
+  "sector": "Industrials",
+  "marketcap": 137208094720.0,
+  "employees": 30518.0
+ },
+ {
+  "symbol": "TJX",
+  "name": "The TJX Companies, Inc.",
+  "sector": "Consumer Cyclical",
+  "marketcap": 137147523072.0,
+  "employees": 349000.0
+ },
+ {
+  "symbol": "KKR",
+  "name": "KKR & Co. Inc.",
+  "sector": "Financial Services",
+  "marketcap": 136186535936.0,
+  "employees": 4490.0
+ },
+ {
+  "symbol": "SCHW",
+  "name": "The Charles Schwab Corporation",
+  "sector": "Financial Services",
+  "marketcap": 136028905472.0,
+  "employees": 32100.0
+ },
+ {
+  "symbol": "ETN",
+  "name": "Eaton Corporation plc",
+  "sector": "Industrials",
+  "marketcap": 133625020416.0,
+  "employees": 94000.0
+ },
+ {
+  "symbol": "AMAT",
+  "name": "Applied Materials, Inc.",
+  "sector": "Technology",
+  "marketcap": 133110726656.0,
+  "employees": 35200.0
+ },
+ {
+  "symbol": "BA",
+  "name": "The Boeing Company",
+  "sector": "Industrials",
+  "marketcap": 132689018880.0,
+  "employees": 171000.0
+ },
+ {
+  "symbol": "BSX",
+  "name": "Boston Scientific Corporation",
+  "sector": "Healthcare",
+  "marketcap": 131097174016.0,
+  "employees": 48000.0
+ },
+ {
+  "symbol": "C",
+  "name": "Citigroup Inc.",
+  "sector": "Financial Services",
+  "marketcap": 130856288256.0,
+  "employees": 229000.0
+ },
+ {
+  "symbol": "UBER",
+  "name": "Uber Technologies, Inc.",
+  "sector": "Technology",
+  "marketcap": 127879766016.0,
+  "employees": 30800.0
+ },
+ {
+  "symbol": "COP",
+  "name": "ConocoPhillips",
+  "sector": "Energy",
+  "marketcap": 123043438592.0,
+  "employees": 10300.0
+ },
+ {
+  "symbol": "PANW",
+  "name": "Palo Alto Networks, Inc.",
+  "sector": "Technology",
+  "marketcap": 122565033984.0,
+  "employees": 15289.0
+ },
+ {
+  "symbol": "ADP",
+  "name": "Automatic Data Processing, Inc.",
+  "sector": "Technology",
+  "marketcap": 119800504320.0,
+  "employees": 64000.0
+ },
+ {
+  "symbol": "DE",
+  "name": "Deere & Company",
+  "sector": "Industrials",
+  "marketcap": 117453471744.0,
+  "employees": 83000.0
+ },
+ {
+  "symbol": "FI",
+  "name": "Fiserv, Inc.",
+  "sector": "Technology",
+  "marketcap": 117225758720.0,
+  "employees": 42000.0
+ },
+ {
+  "symbol": "BMY",
+  "name": "Bristol-Myers Squibb Company",
+  "sector": "Healthcare",
+  "marketcap": 116275560448.0,
+  "employees": 34100.0
+ },
+ {
+  "symbol": "LMT",
+  "name": "Lockheed Martin Corporation",
+  "sector": "Industrials",
+  "marketcap": 115914858496.0,
+  "employees": 122000.0
+ },
+ {
+  "symbol": "GILD",
+  "name": "Gilead Sciences, Inc.",
+  "sector": "Healthcare",
+  "marketcap": 115367206912.0,
+  "employees": 18000.0
+ },
+ {
+  "symbol": "NKE",
+  "name": "NIKE, Inc.",
+  "sector": "Consumer Cyclical",
+  "marketcap": 114525192192.0,
+  "employees": 79400.0
+ },
+ {
+  "symbol": "CB",
+  "name": "Chubb Limited",
+  "sector": "Financial Services",
+  "marketcap": 110126374912.0,
+  "employees": 40000.0
+ },
+ {
+  "symbol": "UPS",
+  "name": "United Parcel Service, Inc.",
+  "sector": "Industrials",
+  "marketcap": 107251539968.0,
+  "employees": 500000.0
+ },
+ {
+  "symbol": "ADI",
+  "name": "Analog Devices, Inc.",
+  "sector": "Technology",
+  "marketcap": 105105776640.0,
+  "employees": 26000.0
+ },
+ {
+  "symbol": "MMC",
+  "name": "Marsh & McLennan Companies, Inc.",
+  "sector": "Financial Services",
+  "marketcap": 103990173696.0,
+  "employees": 85000.0
+ },
+ {
+  "symbol": "MDT",
+  "name": "Medtronic plc",
+  "sector": "Healthcare",
+  "marketcap": 103903961088.0,
+  "employees": 95000.0
+ },
+ {
+  "symbol": "VRTX",
+  "name": "Vertex Pharmaceuticals Incorporated",
+  "sector": "Healthcare",
+  "marketcap": 102308536320.0,
+  "employees": 5400.0
+ },
+ {
+  "symbol": "MU",
+  "name": "Micron Technology, Inc.",
+  "sector": "Technology",
+  "marketcap": 100408999936.0,
+  "employees": 48000.0
+ },
+ {
+  "symbol": "SBUX",
+  "name": "Starbucks Corporation",
+  "sector": "Consumer Cyclical",
+  "marketcap": 99740385280.0,
+  "employees": 0
+ },
+ {
+  "symbol": "PLD",
+  "name": "Prologis, Inc.",
+  "sector": "Real Estate",
+  "marketcap": 95692398592.0,
+  "employees": 2574.0
+ },
+ {
+  "symbol": "GEV",
+  "name": "GE Vernova Inc.",
+  "sector": "Utilities",
+  "marketcap": 94455259136.0,
+  "employees": 80000.0
+ },
+ {
+  "symbol": "LRCX",
+  "name": "Lam Research Corporation",
+  "sector": "Technology",
+  "marketcap": 92371476480.0,
+  "employees": 17700.0
+ },
+ {
+  "symbol": "MO",
+  "name": "Altria Group, Inc.",
+  "sector": "Consumer Defensive",
+  "marketcap": 91248566272.0,
+  "employees": 6400.0
+ },
+ {
+  "symbol": "SO",
+  "name": "The Southern Company",
+  "sector": "Utilities",
+  "marketcap": 90788044800.0,
+  "employees": 27819.0
+ },
+ {
+  "symbol": "EQIX",
+  "name": "Equinix, Inc.",
+  "sector": "Real Estate",
+  "marketcap": 89465782272.0,
+  "employees": 13151.0
+ },
+ {
+  "symbol": "CRWD",
+  "name": "CrowdStrike Holdings, Inc.",
+  "sector": "Technology",
+  "marketcap": 89236021248.0,
+  "employees": 9219.0
+ },
+ {
+  "symbol": "PYPL",
+  "name": "PayPal Holdings, Inc.",
+  "sector": "Financial Services",
+  "marketcap": 87351312384.0,
+  "employees": 27200.0
+ },
+ {
+  "symbol": "SHW",
+  "name": "The Sherwin-Williams Company",
+  "sector": "Basic Materials",
+  "marketcap": 87007649792.0,
+  "employees": 64088.0
+ },
+ {
+  "symbol": "ICE",
+  "name": "Intercontinental Exchange, Inc.",
+  "sector": "Financial Services",
+  "marketcap": 86304546816.0,
+  "employees": 12900.0
+ },
+ {
+  "symbol": "CME",
+  "name": "CME Group Inc.",
+  "sector": "Financial Services",
+  "marketcap": 85957140480.0,
+  "employees": 3565.0
+ },
+ {
+  "symbol": "AMT",
+  "name": "American Tower Corporation",
+  "sector": "Real Estate",
+  "marketcap": 85855002624.0,
+  "employees": 5643.0
+ },
+ {
+  "symbol": "APH",
+  "name": "Amphenol Corporation",
+  "sector": "Technology",
+  "marketcap": 85091958784.0,
+  "employees": 95000.0
+ },
+ {
+  "symbol": "ELV",
+  "name": "Elevance Health, Inc.",
+  "sector": "Healthcare",
+  "marketcap": 84874543104.0,
+  "employees": 104900.0
+ },
+ {
+  "symbol": "TT",
+  "name": "Trane Technologies plc",
+  "sector": "Industrials",
+  "marketcap": 84858798080.0,
+  "employees": 40000.0
+ },
+ {
+  "symbol": "MCO",
+  "name": "Moody's Corporation",
+  "sector": "Financial Services",
+  "marketcap": 84517085184.0,
+  "employees": 15776.0
+ },
+ {
+  "symbol": "CMG",
+  "name": "Chipotle Mexican Grill, Inc.",
+  "sector": "Consumer Cyclical",
+  "marketcap": 84303437824.0,
+  "employees": 125000.0
+ },
+ {
+  "symbol": "INTC",
+  "name": "Intel Corporation",
+  "sector": "Technology",
+  "marketcap": 84189757440.0,
+  "employees": 124100.0
+ },
+ {
+  "symbol": "KLAC",
+  "name": "KLA Corporation",
+  "sector": "Technology",
+  "marketcap": 84184530944.0,
+  "employees": 15000.0
+ },
+ {
+  "symbol": "ABNB",
+  "name": "Airbnb, Inc.",
+  "sector": "Consumer Cyclical",
+  "marketcap": 83850649600.0,
+  "employees": 6907.0
+ },
+ {
+  "symbol": "DUK",
+  "name": "Duke Energy Corporation",
+  "sector": "Utilities",
+  "marketcap": 83644350464.0,
+  "employees": 27037.0
+ },
+ {
+  "symbol": "PH",
+  "name": "Parker-Hannifin Corporation",
+  "sector": "Industrials",
+  "marketcap": 83307585536.0,
+  "employees": 61120.0
+ },
+ {
+  "symbol": "CDNS",
+  "name": "Cadence Design Systems, Inc.",
+  "sector": "Technology",
+  "marketcap": 82682068992.0,
+  "employees": 12703.0
+ },
+ {
+  "symbol": "WM",
+  "name": "Waste Management, Inc.",
+  "sector": "Industrials",
+  "marketcap": 82613166080.0,
+  "employees": 48000.0
+ },
+ {
+  "symbol": "DELL",
+  "name": "Dell Technologies Inc.",
+  "sector": "Technology",
+  "marketcap": 81092141056.0,
+  "employees": 120000.0
+ },
+ {
+  "symbol": "MDLZ",
+  "name": "Mondelez International, Inc.",
+  "sector": "Consumer Defensive",
+  "marketcap": 79415713792.0,
+  "employees": 91000.0
+ },
+ {
+  "symbol": "MAR",
+  "name": "Marriott International, Inc.",
+  "sector": "Consumer Cyclical",
+  "marketcap": 78910488576.0,
+  "employees": 411000.0
+ },
+ {
+  "symbol": "MSI",
+  "name": "Motorola Solutions, Inc.",
+  "sector": "Technology",
+  "marketcap": 78536843264.0,
+  "employees": 21000.0
+ },
+ {
+  "symbol": "WELL",
+  "name": "Welltower Inc.",
+  "sector": "Real Estate",
+  "marketcap": 77612081152.0,
+  "employees": 533.0
+ },
+ {
+  "symbol": "AON",
+  "name": "Aon plc",
+  "sector": "Financial Services",
+  "marketcap": 77524877312.0,
+  "employees": 50000.0
+ },
+ {
+  "symbol": "REGN",
+  "name": "Regeneron Pharmaceuticals, Inc.",
+  "sector": "Healthcare",
+  "marketcap": 77126295552.0,
+  "employees": 14165.0
+ },
+ {
+  "symbol": "CI",
+  "name": "The Cigna Group",
+  "sector": "Healthcare",
+  "marketcap": 77026131968.0,
+  "employees": 70325.0
+ },
+ {
+  "symbol": "HCA",
+  "name": "HCA Healthcare, Inc.",
+  "sector": "Healthcare",
+  "marketcap": 76906029056.0,
+  "employees": 220000.0
+ },
+ {
+  "symbol": "PNC",
+  "name": "The PNC Financial Services Group, Inc.",
+  "sector": "Financial Services",
+  "marketcap": 76483887104.0,
+  "employees": 53749.0
+ },
+ {
+  "symbol": "ITW",
+  "name": "Illinois Tool Works Inc.",
+  "sector": "Industrials",
+  "marketcap": 76429549568.0,
+  "employees": 45000.0
+ },
+ {
+  "symbol": "SNPS",
+  "name": "Synopsys, Inc.",
+  "sector": "Technology",
+  "marketcap": 76080201728.0,
+  "employees": 20300.0
+ },
+ {
+  "symbol": "CTAS",
+  "name": "Cintas Corporation",
+  "sector": "Industrials",
+  "marketcap": 75429543936.0,
+  "employees": 46500.0
+ },
+ {
+  "symbol": "CL",
+  "name": "Colgate-Palmolive Company",
+  "sector": "Consumer Defensive",
+  "marketcap": 75189518336.0,
+  "employees": 34000.0
+ },
+ {
+  "symbol": "USB",
+  "name": "U.S. Bancorp",
+  "sector": "Financial Services",
+  "marketcap": 74756628480.0,
+  "employees": 70000.0
+ },
+ {
+  "symbol": "FTNT",
+  "name": "Fortinet, Inc.",
+  "sector": "Technology",
+  "marketcap": 74491568128.0,
+  "employees": 13986.0
+ },
+ {
+  "symbol": "ZTS",
+  "name": "Zoetis Inc.",
+  "sector": "Healthcare",
+  "marketcap": 74370031616.0,
+  "employees": 14100.0
+ },
+ {
+  "symbol": "MCK",
+  "name": "McKesson Corporation",
+  "sector": "Healthcare",
+  "marketcap": 73592193024.0,
+  "employees": 45000.0
+ },
+ {
+  "symbol": "GD",
+  "name": "General Dynamics Corporation",
+  "sector": "Industrials",
+  "marketcap": 72492826624.0,
+  "employees": 100000.0
+ },
+ {
+  "symbol": "TDG",
+  "name": "TransDigm Group Incorporated",
+  "sector": "Industrials",
+  "marketcap": 71758430208.0,
+  "employees": 16600.0
+ },
+ {
+  "symbol": "CEG",
+  "name": "Constellation Energy Corporation",
+  "sector": "Utilities",
+  "marketcap": 71004364800.0,
+  "employees": 13871.0
+ },
+ {
+  "symbol": "AJG",
+  "name": "Arthur J. Gallagher & Co.",
+  "sector": "Financial Services",
+  "marketcap": 70719234048.0,
+  "employees": 51261.0
+ },
+ {
+  "symbol": "EMR",
+  "name": "Emerson Electric Co.",
+  "sector": "Industrials",
+  "marketcap": 70673096704.0,
+  "employees": 73000.0
+ },
+ {
+  "symbol": "MMM",
+  "name": "3M Company",
+  "sector": "Industrials",
+  "marketcap": 70400581632.0,
+  "employees": 85000.0
+ },
+ {
+  "symbol": "ORLY",
+  "name": "O'Reilly Automotive, Inc.",
+  "sector": "Consumer Cyclical",
+  "marketcap": 70380068864.0,
+  "employees": 92709.0
+ },
+ {
+  "symbol": "NOC",
+  "name": "Northrop Grumman Corporation",
+  "sector": "Industrials",
+  "marketcap": 68409634816.0,
+  "employees": 101000.0
+ },
+ {
+  "symbol": "COF",
+  "name": "Capital One Financial Corporation",
+  "sector": "Financial Services",
+  "marketcap": 68156760064.0,
+  "employees": 52500.0
+ },
+ {
+  "symbol": "ECL",
+  "name": "Ecolab Inc.",
+  "sector": "Basic Materials",
+  "marketcap": 67474665472.0,
+  "employees": 48000.0
+ },
+ {
+  "symbol": "EOG",
+  "name": "EOG Resources, Inc.",
+  "sector": "Energy",
+  "marketcap": 66954047488.0,
+  "employees": 3050.0
+ },
+ {
+  "symbol": "FDX",
+  "name": "FedEx Corporation",
+  "sector": "Industrials",
+  "marketcap": 66409852928.0,
+  "employees": 306000.0
+ },
+ {
+  "symbol": "BDX",
+  "name": "Becton, Dickinson and Company",
+  "sector": "Healthcare",
+  "marketcap": 66029019136.0,
+  "employees": 70000.0
+ },
+ {
+  "symbol": "APD",
+  "name": "Air Products and Chemicals, Inc.",
+  "sector": "Basic Materials",
+  "marketcap": 65599582208.0,
+  "employees": 23000.0
+ },
+ {
+  "symbol": "WMB",
+  "name": "The Williams Companies, Inc.",
+  "sector": "Energy",
+  "marketcap": 65204850688.0,
+  "employees": 5601.0
+ },
+ {
+  "symbol": "SPG",
+  "name": "Simon Property Group, Inc.",
+  "sector": "Real Estate",
+  "marketcap": 64434921472.0,
+  "employees": 2500.0
+ },
+ {
+  "symbol": "ADSK",
+  "name": "Autodesk, Inc.",
+  "sector": "Technology",
+  "marketcap": 64247537664.0,
+  "employees": 14100.0
+ },
+ {
+  "symbol": "RCL",
+  "name": "Royal Caribbean Cruises Ltd.",
+  "sector": "Consumer Cyclical",
+  "marketcap": 64107868160.0,
+  "employees": 98100.0
+ },
+ {
+  "symbol": "RSG",
+  "name": "Republic Services, Inc.",
+  "sector": "Industrials",
+  "marketcap": 63798456320.0,
+  "employees": 41000.0
+ },
+ {
+  "symbol": "CARR",
+  "name": "Carrier Global Corporation",
+  "sector": "Industrials",
+  "marketcap": 61451075584.0,
+  "employees": 53000.0
+ },
+ {
+  "symbol": "CSX",
+  "name": "CSX Corporation",
+  "sector": "Industrials",
+  "marketcap": 61420175360.0,
+  "employees": 23400.0
+ },
+ {
+  "symbol": "HLT",
+  "name": "Hilton Worldwide Holdings Inc.",
+  "sector": "Consumer Cyclical",
+  "marketcap": 60803608576.0,
+  "employees": 178000.0
+ },
+ {
+  "symbol": "DLR",
+  "name": "Digital Realty Trust, Inc.",
+  "sector": "Real Estate",
+  "marketcap": 60376125440.0,
+  "employees": 3664.0
+ },
+ {
+  "symbol": "TGT",
+  "name": "Target Corporation",
+  "sector": "Consumer Defensive",
+  "marketcap": 60245712896.0,
+  "employees": 415000.0
+ },
+ {
+  "symbol": "KMI",
+  "name": "Kinder Morgan, Inc.",
+  "sector": "Energy",
+  "marketcap": 59651035136.0,
+  "employees": 10891.0
+ },
+ {
+  "symbol": "OKE",
+  "name": "ONEOK, Inc.",
+  "sector": "Energy",
+  "marketcap": 58471841792.0,
+  "employees": 4775.0
+ },
+ {
+  "symbol": "TFC",
+  "name": "Truist Financial Corporation",
+  "sector": "Financial Services",
+  "marketcap": 57508167680.0,
+  "employees": 37867.0
+ },
+ {
+  "symbol": "AFL",
+  "name": "Aflac Incorporated",
+  "sector": "Financial Services",
+  "marketcap": 57047171072.0,
+  "employees": 12785.0
+ },
+ {
+  "symbol": "GM",
+  "name": "General Motors Company",
+  "sector": "Consumer Cyclical",
+  "marketcap": 56970276864.0,
+  "employees": 163000.0
+ },
+ {
+  "symbol": "BK",
+  "name": "The Bank of New York Mellon Corporation",
+  "sector": "Financial Services",
+  "marketcap": 56435798016.0,
+  "employees": 52600.0
+ },
+ {
+  "symbol": "ROP",
+  "name": "Roper Technologies, Inc.",
+  "sector": "Technology",
+  "marketcap": 56338120704.0,
+  "employees": 16800.0
+ },
+ {
+  "symbol": "MET",
+  "name": "MetLife, Inc.",
+  "sector": "Financial Services",
+  "marketcap": 56335290368.0,
+  "employees": 45000.0
+ },
+ {
+  "symbol": "CPRT",
+  "name": "Copart, Inc.",
+  "sector": "Industrials",
+  "marketcap": 56096600064.0,
+  "employees": 13086.0
+ },
+ {
+  "symbol": "FCX",
+  "name": "Freeport-McMoRan Inc.",
+  "sector": "Basic Materials",
+  "marketcap": 55839100928.0,
+  "employees": 27200.0
+ },
+ {
+  "symbol": "CVS",
+  "name": "CVS Health Corporation",
+  "sector": "Healthcare",
+  "marketcap": 55823069184.0,
+  "employees": 219000.0
+ },
+ {
+  "symbol": "PCAR",
+  "name": "PACCAR Inc",
+  "sector": "Industrials",
+  "marketcap": 55219380224.0,
+  "employees": 32400.0
+ },
+ {
+  "symbol": "SRE",
+  "name": "Sempra",
+  "sector": "Utilities",
+  "marketcap": 54985363456.0,
+  "employees": 16835.0
+ },
+ {
+  "symbol": "AZO",
+  "name": "AutoZone, Inc.",
+  "sector": "Consumer Cyclical",
+  "marketcap": 54690828288.0,
+  "employees": 75600.0
+ },
+ {
+  "symbol": "TRV",
+  "name": "The Travelers Companies, Inc.",
+  "sector": "Financial Services",
+  "marketcap": 54657093632.0,
+  "employees": 32967.0
+ },
+ {
+  "symbol": "NXPI",
+  "name": "NXP Semiconductors N.V.",
+  "sector": "Technology",
+  "marketcap": 53433757696.0,
+  "employees": 34200.0
+ },
+ {
+  "symbol": "JCI",
+  "name": "Johnson Controls International plc",
+  "sector": "Industrials",
+  "marketcap": 53398601728.0,
+  "employees": 100000.0
+ },
+ {
+  "symbol": "GWW",
+  "name": "W.W. Grainger, Inc.",
+  "sector": "Industrials",
+  "marketcap": 53227368448.0,
+  "employees": 23200.0
+ },
+ {
+  "symbol": "NSC",
+  "name": "Norfolk Southern Corporation",
+  "sector": "Industrials",
+  "marketcap": 52974096384.0,
+  "employees": 20700.0
+ },
+ {
+  "symbol": "PSA",
+  "name": "Public Storage",
+  "sector": "Real Estate",
+  "marketcap": 52116942848.0,
+  "employees": 6200.0
+ },
+ {
+  "symbol": "SLB",
+  "name": "Schlumberger Limited",
+  "sector": "Energy",
+  "marketcap": 52009488384.0,
+  "employees": 111000.0
+ },
+ {
+  "symbol": "AMP",
+  "name": "Ameriprise Financial, Inc.",
+  "sector": "Financial Services",
+  "marketcap": 51623407616.0,
+  "employees": 13800.0
+ },
+ {
+  "symbol": "ALL",
+  "name": "The Allstate Corporation",
+  "sector": "Financial Services",
+  "marketcap": 51255271424.0,
+  "employees": 53000.0
+ },
+ {
+  "symbol": "FICO",
+  "name": "Fair Isaac Corporation",
+  "sector": "Technology",
+  "marketcap": 50910969856.0,
+  "employees": 3586.0
+ },
+ {
+  "symbol": "MNST",
+  "name": "Monster Beverage Corporation",
+  "sector": "Consumer Defensive",
+  "marketcap": 50298736640.0,
+  "employees": 5254.0
+ },
+ {
+  "symbol": "PAYX",
+  "name": "Paychex, Inc.",
+  "sector": "Technology",
+  "marketcap": 50243190784.0,
+  "employees": 16000.0
+ },
+ {
+  "symbol": "CHTR",
+  "name": "Charter Communications, Inc.",
+  "sector": "Communication Services",
+  "marketcap": 49977675776.0,
+  "employees": 101100.0
+ },
+ {
+  "symbol": "AEP",
+  "name": "American Electric Power Company, Inc.",
+  "sector": "Utilities",
+  "marketcap": 49395404800.0,
+  "employees": 17250.0
+ },
+ {
+  "symbol": "ROST",
+  "name": "Ross Stores, Inc.",
+  "sector": "Consumer Cyclical",
+  "marketcap": 49208905728.0,
+  "employees": 108000.0
+ },
+ {
+  "symbol": "PWR",
+  "name": "Quanta Services, Inc.",
+  "sector": "Industrials",
+  "marketcap": 48477257728.0,
+  "employees": 52500.0
+ },
+ {
+  "symbol": "CMI",
+  "name": "Cummins Inc.",
+  "sector": "Industrials",
+  "marketcap": 48203010048.0,
+  "employees": 75500.0
+ },
+ {
+  "symbol": "AXON",
+  "name": "Axon Enterprise, Inc.",
+  "sector": "Industrials",
+  "marketcap": 48169394176.0,
+  "employees": 3330.0
+ },
+ {
+  "symbol": "VST",
+  "name": "Vistra Corp.",
+  "sector": "Utilities",
+  "marketcap": 47614623744.0,
+  "employees": 4870.0
+ },
+ {
+  "symbol": "URI",
+  "name": "United Rentals, Inc.",
+  "sector": "Industrials",
+  "marketcap": 47421370368.0,
+  "employees": 26300.0
+ },
+ {
+  "symbol": "MSCI",
+  "name": "MSCI Inc.",
+  "sector": "Financial Services",
+  "marketcap": 47398957056.0,
+  "employees": 6118.0
+ },
+ {
+  "symbol": "LULU",
+  "name": "Lululemon Athletica Inc.",
+  "sector": "Consumer Cyclical",
+  "marketcap": 46207287296.0,
+  "employees": 38000.0
+ },
+ {
+  "symbol": "O",
+  "name": "Realty Income Corporation",
+  "sector": "Real Estate",
+  "marketcap": 46202388480.0,
+  "employees": 418.0
+ },
+ {
+  "symbol": "PSX",
+  "name": "Phillips 66",
+  "sector": "Energy",
+  "marketcap": 45581594624.0,
+  "employees": 14000.0
+ },
+ {
+  "symbol": "AIG",
+  "name": "American International Group, Inc.",
+  "sector": "Financial Services",
+  "marketcap": 45341773824.0,
+  "employees": 25000.0
+ },
+ {
+  "symbol": "FANG",
+  "name": "Diamondback Energy, Inc.",
+  "sector": "Energy",
+  "marketcap": 45240774656.0,
+  "employees": 1023.0
+ },
+ {
+  "symbol": "D",
+  "name": "Dominion Energy, Inc.",
+  "sector": "Utilities",
+  "marketcap": 45074935808.0,
+  "employees": 17700.0
+ },
+ {
+  "symbol": "HWM",
+  "name": "Howmet Aerospace Inc.",
+  "sector": "Industrials",
+  "marketcap": 45025906688.0,
+  "employees": 23200.0
+ },
+ {
+  "symbol": "DHI",
+  "name": "D.R. Horton, Inc.",
+  "sector": "Consumer Cyclical",
+  "marketcap": 44790935552.0,
+  "employees": 0
+ },
+ {
+  "symbol": "KR",
+  "name": "The Kroger Co.",
+  "sector": "Consumer Defensive",
+  "marketcap": 44755030016.0,
+  "employees": 414000.0
+ },
+ {
+  "symbol": "NDAQ",
+  "name": "Nasdaq, Inc.",
+  "sector": "Financial Services",
+  "marketcap": 44658696192.0,
+  "employees": 9120.0
+ },
+ {
+  "symbol": "OXY",
+  "name": "Occidental Petroleum Corporation",
+  "sector": "Energy",
+  "marketcap": 44224106496.0,
+  "employees": 12570.0
+ },
+ {
+  "symbol": "EW",
+  "name": "Edwards Lifesciences Corporation",
+  "sector": "Healthcare",
+  "marketcap": 44122935296.0,
+  "employees": 19800.0
+ },
+ {
+  "symbol": "COR",
+  "name": "Cencora, Inc.",
+  "sector": "Healthcare",
+  "marketcap": 44007923712.0,
+  "employees": 46000.0
+ },
+ {
+  "symbol": "KDP",
+  "name": "Keurig Dr Pepper Inc.",
+  "sector": "Consumer Defensive",
+  "marketcap": 43908288512.0,
+  "employees": 28100.0
+ },
+ {
+  "symbol": "FIS",
+  "name": "Fidelity National Information Services, Inc.",
+  "sector": "Technology",
+  "marketcap": 43854315520.0,
+  "employees": 60000.0
+ },
+ {
+  "symbol": "KMB",
+  "name": "Kimberly-Clark Corporation",
+  "sector": "Consumer Defensive",
+  "marketcap": 43793252352.0,
+  "employees": 41000.0
+ },
+ {
+  "symbol": "NEM",
+  "name": "Newmont Corporation",
+  "sector": "Basic Materials",
+  "marketcap": 43579867136.0,
+  "employees": 21700.0
+ },
+ {
+  "symbol": "DFS",
+  "name": "Discover Financial Services",
+  "sector": "Financial Services",
+  "marketcap": 43475628032.0,
+  "employees": 21100.0
+ },
+ {
+  "symbol": "PCG",
+  "name": "PG&E Corporation",
+  "sector": "Utilities",
+  "marketcap": 43475365888.0,
+  "employees": 28010.0
+ },
+ {
+  "symbol": "TEL",
+  "name": "TE Connectivity plc",
+  "sector": "Technology",
+  "marketcap": 42980601856.0,
+  "employees": 87000.0
+ },
+ {
+  "symbol": "MPC",
+  "name": "Marathon Petroleum Corporation",
+  "sector": "Energy",
+  "marketcap": 42866864128.0,
+  "employees": 18200.0
+ },
+ {
+  "symbol": "FAST",
+  "name": "Fastenal Company",
+  "sector": "Industrials",
+  "marketcap": 42863333376.0,
+  "employees": 20894.0
+ },
+ {
+  "symbol": "AME",
+  "name": "AMETEK, Inc.",
+  "sector": "Industrials",
+  "marketcap": 42412634112.0,
+  "employees": 21500.0
+ },
+ {
+  "symbol": "PEG",
+  "name": "Public Service Enterprise Group Incorporated",
+  "sector": "Utilities",
+  "marketcap": 42379018240.0,
+  "employees": 12543.0
+ },
+ {
+  "symbol": "PRU",
+  "name": "Prudential Financial, Inc.",
+  "sector": "Financial Services",
+  "marketcap": 41939349504.0,
+  "employees": 40366.0
+ },
+ {
+  "symbol": "KVUE",
+  "name": "Kenvue Inc.",
+  "sector": "Consumer Defensive",
+  "marketcap": 41738752000.0,
+  "employees": 22000.0
+ },
+ {
+  "symbol": "STZ",
+  "name": "Constellation Brands, Inc.",
+  "sector": "Consumer Defensive",
+  "marketcap": 41334652928.0,
+  "employees": 10600.0
+ },
+ {
+  "symbol": "GLW",
+  "name": "Corning Incorporated",
+  "sector": "Technology",
+  "marketcap": 40507248640.0,
+  "employees": 49800.0
+ },
+ {
+  "symbol": "LHX",
+  "name": "L3Harris Technologies, Inc.",
+  "sector": "Industrials",
+  "marketcap": 40503603200.0,
+  "employees": 50000.0
+ },
+ {
+  "symbol": "GRMN",
+  "name": "Garmin Ltd.",
+  "sector": "Technology",
+  "marketcap": 40131305472.0,
+  "employees": 19900.0
+ },
+ {
+  "symbol": "BKR",
+  "name": "Baker Hughes Company",
+  "sector": "Energy",
+  "marketcap": 39897690112.0,
+  "employees": 57000.0
+ },
+ {
+  "symbol": "CBRE",
+  "name": "CBRE Group, Inc.",
+  "sector": "Real Estate",
+  "marketcap": 39525285888.0,
+  "employees": 130000.0
+ },
+ {
+  "symbol": "CTVA",
+  "name": "Corteva, Inc.",
+  "sector": "Basic Materials",
+  "marketcap": 39505600512.0,
+  "employees": 22500.0
+ },
+ {
+  "symbol": "HES",
+  "name": "Hess Corporation",
+  "sector": "Energy",
+  "marketcap": 39497650176.0,
+  "employees": 1756.0
+ },
+ {
+  "symbol": "CCI",
+  "name": "Crown Castle Inc.",
+  "sector": "Real Estate",
+  "marketcap": 39400656896.0,
+  "employees": 4700.0
+ },
+ {
+  "symbol": "DAL",
+  "name": "Delta Air Lines, Inc.",
+  "sector": "Industrials",
+  "marketcap": 39316971520.0,
+  "employees": 100000.0
+ },
+ {
+  "symbol": "CTSH",
+  "name": "Cognizant Technology Solutions Corporation",
+  "sector": "Technology",
+  "marketcap": 39284137984.0,
+  "employees": 340100.0
+ },
+ {
+  "symbol": "F",
+  "name": "Ford Motor Company",
+  "sector": "Consumer Cyclical",
+  "marketcap": 39265984512.0,
+  "employees": 177000.0
+ },
+ {
+  "symbol": "VRSK",
+  "name": "Verisk Analytics, Inc.",
+  "sector": "Industrials",
+  "marketcap": 39095676928.0,
+  "employees": 7500.0
+ },
+ {
+  "symbol": "EA",
+  "name": "Electronic Arts Inc.",
+  "sector": "Communication Services",
+  "marketcap": 38763950080.0,
+  "employees": 13700.0
+ },
+ {
+  "symbol": "ODFL",
+  "name": "Old Dominion Freight Line, Inc.",
+  "sector": "Industrials",
+  "marketcap": 38722129920.0,
+  "employees": 22686.0
+ },
+ {
+  "symbol": "XEL",
+  "name": "Xcel Energy Inc.",
+  "sector": "Utilities",
+  "marketcap": 38703910912.0,
+  "employees": 11311.0
+ },
+ {
+  "symbol": "TRGP",
+  "name": "Targa Resources Corp.",
+  "sector": "Energy",
+  "marketcap": 38551359488.0,
+  "employees": 3182.0
+ },
+ {
+  "symbol": "A",
+  "name": "Agilent Technologies, Inc.",
+  "sector": "Healthcare",
+  "marketcap": 38415384576.0,
+  "employees": 17400.0
+ },
+ {
+  "symbol": "IT",
+  "name": "Gartner, Inc.",
+  "sector": "Technology",
+  "marketcap": 37892227072.0,
+  "employees": 20990.0
+ },
+ {
+  "symbol": "LVS",
+  "name": "Las Vegas Sands Corp.",
+  "sector": "Consumer Cyclical",
+  "marketcap": 37882609664.0,
+  "employees": 38400.0
+ },
+ {
+  "symbol": "SYY",
+  "name": "Sysco Corporation",
+  "sector": "Consumer Defensive",
+  "marketcap": 37809664000.0,
+  "employees": 76000.0
+ },
+ {
+  "symbol": "VLO",
+  "name": "Valero Energy Corporation",
+  "sector": "Energy",
+  "marketcap": 37543813120.0,
+  "employees": 9886.0
+ },
+ {
+  "symbol": "OTIS",
+  "name": "Otis Worldwide Corporation",
+  "sector": "Industrials",
+  "marketcap": 37373571072.0,
+  "employees": 71000.0
+ },
+ {
+  "symbol": "LEN",
+  "name": "Lennar Corporation",
+  "sector": "Consumer Cyclical",
+  "marketcap": 37306593280.0,
+  "employees": 12284.0
+ },
+ {
+  "symbol": "EXC",
+  "name": "Exelon Corporation",
+  "sector": "Utilities",
+  "marketcap": 37198807040.0,
+  "employees": 19962.0
+ },
+ {
+  "symbol": "IR",
+  "name": "Ingersoll Rand Inc.",
+  "sector": "Industrials",
+  "marketcap": 37189947392.0,
+  "employees": 18000.0
+ },
+ {
+  "symbol": "YUM",
+  "name": "Yum! Brands, Inc.",
+  "sector": "Consumer Cyclical",
+  "marketcap": 36937969664.0,
+  "employees": 35000.0
+ },
+ {
+  "symbol": "KHC",
+  "name": "The Kraft Heinz Company",
+  "sector": "Consumer Defensive",
+  "marketcap": 36903870464.0,
+  "employees": 36000.0
+ },
+ {
+  "symbol": "GEHC",
+  "name": "GE HealthCare Technologies Inc.",
+  "sector": "Healthcare",
+  "marketcap": 36051849216.0,
+  "employees": 51000.0
+ },
+ {
+  "symbol": "IQV",
+  "name": "IQVIA Holdings Inc.",
+  "sector": "Healthcare",
+  "marketcap": 35804504064.0,
+  "employees": 88000.0
+ },
+ {
+  "symbol": "GIS",
+  "name": "General Mills, Inc.",
+  "sector": "Consumer Defensive",
+  "marketcap": 35063803904.0,
+  "employees": 34000.0
+ },
+ {
+  "symbol": "CCL",
+  "name": "Carnival Corporation & plc",
+  "sector": "Consumer Cyclical",
+  "marketcap": 35054399488.0,
+  "employees": 106000.0
+ },
+ {
+  "symbol": "RMD",
+  "name": "ResMed Inc.",
+  "sector": "Healthcare",
+  "marketcap": 34830286848.0,
+  "employees": 0
+ },
+ {
+  "symbol": "VMC",
+  "name": "Vulcan Materials Company",
+  "sector": "Basic Materials",
+  "marketcap": 34749210624.0,
+  "employees": 10961.0
+ },
+ {
+  "symbol": "HSY",
+  "name": "The Hershey Company",
+  "sector": "Consumer Defensive",
+  "marketcap": 34452963328.0,
+  "employees": 18650.0
+ },
+ {
+  "symbol": "ACGL",
+  "name": "Arch Capital Group Ltd.",
+  "sector": "Financial Services",
+  "marketcap": 34234257408.0,
+  "employees": 6400.0
+ },
+ {
+  "symbol": "IDXX",
+  "name": "IDEXX Laboratories, Inc.",
+  "sector": "Healthcare",
+  "marketcap": 33757788160.0,
+  "employees": 11000.0
+ },
+ {
+  "symbol": "WAB",
+  "name": "Westinghouse Air Brake Technologies Corporation",
+  "sector": "Industrials",
+  "marketcap": 33179926528.0,
+  "employees": 29000.0
+ },
+ {
+  "symbol": "ROK",
+  "name": "Rockwell Automation, Inc.",
+  "sector": "Industrials",
+  "marketcap": 32755834880.0,
+  "employees": 27000.0
+ },
+ {
+  "symbol": "MLM",
+  "name": "Martin Marietta Materials, Inc.",
+  "sector": "Basic Materials",
+  "marketcap": 32618119168.0,
+  "employees": 9400.0
+ },
+ {
+  "symbol": "EXR",
+  "name": "Extra Space Storage Inc.",
+  "sector": "Real Estate",
+  "marketcap": 32422465536.0,
+  "employees": 7618.0
+ },
+ {
+  "symbol": "DD",
+  "name": "DuPont de Nemours, Inc.",
+  "sector": "Basic Materials",
+  "marketcap": 32299563008.0,
+  "employees": 24000.0
+ },
+ {
+  "symbol": "ETR",
+  "name": "Entergy Corporation",
+  "sector": "Utilities",
+  "marketcap": 32216944640.0,
+  "employees": 12000.0
+ },
+ {
+  "symbol": "DECK",
+  "name": "Deckers Outdoor Corporation",
+  "sector": "Consumer Cyclical",
+  "marketcap": 32050984960.0,
+  "employees": 4800.0
+ },
+ {
+  "symbol": "EFX",
+  "name": "Equifax Inc.",
+  "sector": "Industrials",
+  "marketcap": 32032915456.0,
+  "employees": 15000.0
+ },
+ {
+  "symbol": "UAL",
+  "name": "United Airlines Holdings, Inc.",
+  "sector": "Industrials",
+  "marketcap": 32032522240.0,
+  "employees": 106500.0
+ },
+ {
+  "symbol": "WTW",
+  "name": "Willis Towers Watson Public Limited Company",
+  "sector": "Financial Services",
+  "marketcap": 31987238912.0,
+  "employees": 48000.0
+ },
+ {
+  "symbol": "TTWO",
+  "name": "Take-Two Interactive Software, Inc.",
+  "sector": "Communication Services",
+  "marketcap": 31958847488.0,
+  "employees": 12371.0
+ },
+ {
+  "symbol": "HIG",
+  "name": "The Hartford Financial Services Group, Inc.",
+  "sector": "Financial Services",
+  "marketcap": 31734368256.0,
+  "employees": 18700.0
+ },
+ {
+  "symbol": "RJF",
+  "name": "Raymond James Financial, Inc.",
+  "sector": "Financial Services",
+  "marketcap": 31637176320.0,
+  "employees": 0
+ },
+ {
+  "symbol": "AVB",
+  "name": "AvalonBay Communities, Inc.",
+  "sector": "Real Estate",
+  "marketcap": 31600791552.0,
+  "employees": 2978.0
+ },
+ {
+  "symbol": "MTB",
+  "name": "M&T Bank Corporation",
+  "sector": "Financial Services",
+  "marketcap": 31438708736.0,
+  "employees": 21986.0
+ },
+ {
+  "symbol": "DXCM",
+  "name": "DexCom, Inc.",
+  "sector": "Healthcare",
+  "marketcap": 31263223808.0,
+  "employees": 9500.0
+ },
+ {
+  "symbol": "ED",
+  "name": "Consolidated Edison, Inc.",
+  "sector": "Utilities",
+  "marketcap": 31191611392.0,
+  "employees": 14592.0
+ },
+ {
+  "symbol": "EBAY",
+  "name": "eBay Inc.",
+  "sector": "Consumer Cyclical",
+  "marketcap": 31139790848.0,
+  "employees": 12300.0
+ },
+ {
+  "symbol": "HPQ",
+  "name": "HP Inc.",
+  "sector": "Technology",
+  "marketcap": 30891065344.0,
+  "employees": 58000.0
+ },
+ {
+  "symbol": "IRM",
+  "name": "Iron Mountain Incorporated",
+  "sector": "Real Estate",
+  "marketcap": 30842646528.0,
+  "employees": 27000.0
+ },
+ {
+  "symbol": "EIX",
+  "name": "Edison International",
+  "sector": "Utilities",
+  "marketcap": 30786168832.0,
+  "employees": 14375.0
+ },
+ {
+  "symbol": "LYV",
+  "name": "Live Nation Entertainment, Inc.",
+  "sector": "Communication Services",
+  "marketcap": 30734235648.0,
+  "employees": 14700.0
+ },
+ {
+  "symbol": "VICI",
+  "name": "VICI Properties Inc.",
+  "sector": "Real Estate",
+  "marketcap": 30349555712.0,
+  "employees": 28.0
+ },
+ {
+  "symbol": "CNC",
+  "name": "Centene Corporation",
+  "sector": "Healthcare",
+  "marketcap": 30079856640.0,
+  "employees": 67700.0
+ },
+ {
+  "symbol": "WEC",
+  "name": "WEC Energy Group, Inc.",
+  "sector": "Utilities",
+  "marketcap": 29895450624.0,
+  "employees": 7000.0
+ },
+ {
+  "symbol": "MCHP",
+  "name": "Microchip Technology Incorporated",
+  "sector": "Technology",
+  "marketcap": 29809422336.0,
+  "employees": 22300.0
+ },
+ {
+  "symbol": "HUM",
+  "name": "Humana Inc.",
+  "sector": "Healthcare",
+  "marketcap": 29753559040.0,
+  "employees": 67600.0
+ },
+ {
+  "symbol": "ANSS",
+  "name": "ANSYS, Inc.",
+  "sector": "Technology",
+  "marketcap": 29591330816.0,
+  "employees": 6400.0
+ },
+ {
+  "symbol": "BRO",
+  "name": "Brown & Brown, Inc.",
+  "sector": "Financial Services",
+  "marketcap": 29433659392.0,
+  "employees": 16152.0
+ },
+ {
+  "symbol": "CSGP",
+  "name": "CoStar Group, Inc.",
+  "sector": "Real Estate",
+  "marketcap": 29287542784.0,
+  "employees": 6450.0
+ },
+ {
+  "symbol": "MPWR",
+  "name": "Monolithic Power Systems, Inc.",
+  "sector": "Technology",
+  "marketcap": 28937269248.0,
+  "employees": 3564.0
+ },
+ {
+  "symbol": "GDDY",
+  "name": "GoDaddy Inc.",
+  "sector": "Technology",
+  "marketcap": 28837718016.0,
+  "employees": 6159.0
+ },
+ {
+  "symbol": "TSCO",
+  "name": "Tractor Supply Company",
+  "sector": "Consumer Cyclical",
+  "marketcap": 28803792896.0,
+  "employees": 50000.0
+ },
+ {
+  "symbol": "STT",
+  "name": "State Street Corporation",
+  "sector": "Financial Services",
+  "marketcap": 28787427328.0,
+  "employees": 53000.0
+ },
+ {
+  "symbol": "CAH",
+  "name": "Cardinal Health, Inc.",
+  "sector": "Healthcare",
+  "marketcap": 28624943104.0,
+  "employees": 47922.0
+ },
+ {
+  "symbol": "GPN",
+  "name": "Global Payments Inc.",
+  "sector": "Industrials",
+  "marketcap": 28511076352.0,
+  "employees": 27000.0
+ },
+ {
+  "symbol": "FITB",
+  "name": "Fifth Third Bancorp",
+  "sector": "Financial Services",
+  "marketcap": 28500453376.0,
+  "employees": 18579.0
+ },
+ {
+  "symbol": "XYL",
+  "name": "Xylem Inc.",
+  "sector": "Industrials",
+  "marketcap": 28458575872.0,
+  "employees": 23000.0
+ },
+ {
+  "symbol": "HPE",
+  "name": "Hewlett Packard Enterprise Company",
+  "sector": "Technology",
+  "marketcap": 28424284160.0,
+  "employees": 62000.0
+ },
+ {
+  "symbol": "KEYS",
+  "name": "Keysight Technologies, Inc.",
+  "sector": "Technology",
+  "marketcap": 28265295872.0,
+  "employees": 15400.0
+ },
+ {
+  "symbol": "DOW",
+  "name": "Dow Inc.",
+  "sector": "Basic Materials",
+  "marketcap": 27961675776.0,
+  "employees": 35900.0
+ },
+ {
+  "symbol": "EQR",
+  "name": "Equity Residential",
+  "sector": "Real Estate",
+  "marketcap": 27904485376.0,
+  "employees": 2400.0
+ },
+ {
+  "symbol": "ON",
+  "name": "ON Semiconductor Corporation",
+  "sector": "Technology",
+  "marketcap": 27889702912.0,
+  "employees": 30000.0
+ },
+ {
+  "symbol": "PPG",
+  "name": "PPG Industries, Inc.",
+  "sector": "Basic Materials",
+  "marketcap": 27888719872.0,
+  "employees": 53000.0
+ },
+ {
+  "symbol": "K",
+  "name": "Kellanova",
+  "sector": "Consumer Defensive",
+  "marketcap": 27748188160.0,
+  "employees": 23000.0
+ },
+ {
+  "symbol": "SW",
+  "name": "Smurfit Westrock Plc",
+  "sector": "Consumer Cyclical",
+  "marketcap": 27713910784.0,
+  "employees": 100000.0
+ },
+ {
+  "symbol": "NUE",
+  "name": "Nucor Corporation",
+  "sector": "Basic Materials",
+  "marketcap": 27374499840.0,
+  "employees": 32000.0
+ },
+ {
+  "symbol": "EL",
+  "name": "The Est\u00e9e Lauder Companies Inc.",
+  "sector": "Consumer Defensive",
+  "marketcap": 26693603328.0,
+  "employees": 44020.0
+ },
+ {
+  "symbol": "BR",
+  "name": "Broadridge Financial Solutions, Inc.",
+  "sector": "Technology",
+  "marketcap": 26418081792.0,
+  "employees": 14000.0
+ },
+ {
+  "symbol": "WBD",
+  "name": "Warner Bros. Discovery, Inc.",
+  "sector": "Communication Services",
+  "marketcap": 26224386048.0,
+  "employees": 35300.0
+ },
+ {
+  "symbol": "TPL",
+  "name": "Texas Pacific Land Corporation",
+  "sector": "Energy",
+  "marketcap": 26033317888.0,
+  "employees": 100.0
+ },
+ {
+  "symbol": "CHD",
+  "name": "Church & Dwight Co., Inc.",
+  "sector": "Consumer Defensive",
+  "marketcap": 25994287104.0,
+  "employees": 5550.0
+ },
+ {
+  "symbol": "MTD",
+  "name": "Mettler-Toledo International Inc.",
+  "sector": "Healthcare",
+  "marketcap": 25971937280.0,
+  "employees": 16000.0
+ },
+ {
+  "symbol": "DOV",
+  "name": "Dover Corporation",
+  "sector": "Industrials",
+  "marketcap": 25966329856.0,
+  "employees": 25000.0
+ },
+ {
+  "symbol": "TYL",
+  "name": "Tyler Technologies, Inc.",
+  "sector": "Technology",
+  "marketcap": 25911128064.0,
+  "employees": 7386.0
+ },
+ {
+  "symbol": "FTV",
+  "name": "Fortive Corporation",
+  "sector": "Technology",
+  "marketcap": 25830350848.0,
+  "employees": 18000.0
+ },
+ {
+  "symbol": "TROW",
+  "name": "T. Rowe Price Group, Inc.",
+  "sector": "Financial Services",
+  "marketcap": 25797103616.0,
+  "employees": 8104.0
+ },
+ {
+  "symbol": "VLTO",
+  "name": "Veralto Corporation",
+  "sector": "Industrials",
+  "marketcap": 25781858304.0,
+  "employees": 16000.0
+ },
+ {
+  "symbol": "EQT",
+  "name": "EQT Corporation",
+  "sector": "Energy",
+  "marketcap": 25651447808.0,
+  "employees": 881.0
+ },
+ {
+  "symbol": "SYF",
+  "name": "Synchrony Financial",
+  "sector": "Financial Services",
+  "marketcap": 25482563584.0,
+  "employees": 20000.0
+ },
+ {
+  "symbol": "NVR",
+  "name": "NVR, Inc.",
+  "sector": "Consumer Cyclical",
+  "marketcap": 25359060992.0,
+  "employees": 6300.0
+ },
+ {
+  "symbol": "DTE",
+  "name": "DTE Energy Company",
+  "sector": "Utilities",
+  "marketcap": 24889397248.0,
+  "employees": 9412.0
+ },
+ {
+  "symbol": "VTR",
+  "name": "Ventas, Inc.",
+  "sector": "Real Estate",
+  "marketcap": 24650465280.0,
+  "employees": 486.0
+ },
+ {
+  "symbol": "AWK",
+  "name": "American Water Works Company, Inc.",
+  "sector": "Utilities",
+  "marketcap": 24541052928.0,
+  "employees": 6500.0
+ },
+ {
+  "symbol": "ADM",
+  "name": "Archer-Daniels-Midland Company",
+  "sector": "Consumer Defensive",
+  "marketcap": 24161183744.0,
+  "employees": 40213.0
+ },
+ {
+  "symbol": "NTAP",
+  "name": "NetApp, Inc.",
+  "sector": "Technology",
+  "marketcap": 24081594368.0,
+  "employees": 11800.0
+ },
+ {
+  "symbol": "WST",
+  "name": "West Pharmaceutical Services, Inc.",
+  "sector": "Healthcare",
+  "marketcap": 24000782336.0,
+  "employees": 10600.0
+ },
+ {
+  "symbol": "CPAY",
+  "name": "Corpay, Inc.",
+  "sector": "Technology",
+  "marketcap": 23968733184.0,
+  "employees": 10500.0
+ },
+ {
+  "symbol": "PPL",
+  "name": "PPL Corporation",
+  "sector": "Utilities",
+  "marketcap": 23932366848.0,
+  "employees": 6629.0
+ },
+ {
+  "symbol": "LYB",
+  "name": "LyondellBasell Industries N.V.",
+  "sector": "Basic Materials",
+  "marketcap": 23869638656.0,
+  "employees": 20000.0
+ },
+ {
+  "symbol": "AEE",
+  "name": "Ameren Corporation",
+  "sector": "Utilities",
+  "marketcap": 23834001408.0,
+  "employees": 9372.0
+ },
+ {
+  "symbol": "EXPE",
+  "name": "Expedia Group, Inc.",
+  "sector": "Consumer Cyclical",
+  "marketcap": 23711924224.0,
+  "employees": 17100.0
+ },
+ {
+  "symbol": "HBAN",
+  "name": "Huntington Bancshares Incorporated",
+  "sector": "Financial Services",
+  "marketcap": 23709857792.0,
+  "employees": 19896.0
+ },
+ {
+  "symbol": "CDW",
+  "name": "CDW Corporation",
+  "sector": "Technology",
+  "marketcap": 23258566656.0,
+  "employees": 15100.0
+ },
+ {
+  "symbol": "FE",
+  "name": "FirstEnergy Corp.",
+  "sector": "Utilities",
+  "marketcap": 22931654656.0,
+  "employees": 12042.0
+ },
+ {
+  "symbol": "HUBB",
+  "name": "Hubbell Incorporated",
+  "sector": "Industrials",
+  "marketcap": 22906568704.0,
+  "employees": 18000.0
+ },
+ {
+  "symbol": "HAL",
+  "name": "Halliburton Company",
+  "sector": "Energy",
+  "marketcap": 22814697472.0,
+  "employees": 48000.0
+ },
+ {
+  "symbol": "ROL",
+  "name": "Rollins, Inc.",
+  "sector": "Consumer Cyclical",
+  "marketcap": 22723590144.0,
+  "employees": 20000.0
+ },
+ {
+  "symbol": "PHM",
+  "name": "PulteGroup, Inc.",
+  "sector": "Consumer Cyclical",
+  "marketcap": 22665662464.0,
+  "employees": 6382.0
+ },
+ {
+  "symbol": "CINF",
+  "name": "Cincinnati Financial Corporation",
+  "sector": "Financial Services",
+  "marketcap": 22598461440.0,
+  "employees": 5426.0
+ },
+ {
+  "symbol": "PTC",
+  "name": "PTC Inc.",
+  "sector": "Technology",
+  "marketcap": 22533797888.0,
+  "employees": 7000.0
+ },
+ {
+  "symbol": "WRB",
+  "name": "W. R. Berkley Corporation",
+  "sector": "Financial Services",
+  "marketcap": 22319210496.0,
+  "employees": 8329.0
+ },
+ {
+  "symbol": "DRI",
+  "name": "Darden Restaurants, Inc.",
+  "sector": "Consumer Cyclical",
+  "marketcap": 22041825280.0,
+  "employees": 191105.0
+ },
+ {
+  "symbol": "FOXA",
+  "name": "Fox Corporation",
+  "sector": "Communication Services",
+  "marketcap": 21946050560.0,
+  "employees": 10200.0
+ },
+ {
+  "symbol": "FOX",
+  "name": "Fox Corporation",
+  "sector": "Communication Services",
+  "marketcap": 21941315584.0,
+  "employees": 10200.0
+ },
+ {
+  "symbol": "IFF",
+  "name": "International Flavors & Fragrances Inc.",
+  "sector": "Basic Materials",
+  "marketcap": 21922174976.0,
+  "employees": 21500.0
+ },
+ {
+  "symbol": "SBAC",
+  "name": "SBA Communications Corporation",
+  "sector": "Real Estate",
+  "marketcap": 21888458752.0,
+  "employees": 1787.0
+ },
+ {
+  "symbol": "WAT",
+  "name": "Waters Corporation",
+  "sector": "Healthcare",
+  "marketcap": 21859942400.0,
+  "employees": 7900.0
+ },
+ {
+  "symbol": "ERIE",
+  "name": "Erie Indemnity Company",
+  "sector": "Financial Services",
+  "marketcap": 21777698816.0,
+  "employees": 6481.0
+ },
+ {
+  "symbol": "TDY",
+  "name": "Teledyne Technologies Incorporated",
+  "sector": "Technology",
+  "marketcap": 21774923776.0,
+  "employees": 14900.0
+ },
+ {
+  "symbol": "ATO",
+  "name": "Atmos Energy Corporation",
+  "sector": "Utilities",
+  "marketcap": 21710899200.0,
+  "employees": 5019.0
+ },
+ {
+  "symbol": "RF",
+  "name": "Regions Financial Corporation",
+  "sector": "Financial Services",
+  "marketcap": 21603698688.0,
+  "employees": 20101.0
+ },
+ {
+  "symbol": "BIIB",
+  "name": "Biogen Inc.",
+  "sector": "Healthcare",
+  "marketcap": 21343463424.0,
+  "employees": 7570.0
+ },
+ {
+  "symbol": "ZBH",
+  "name": "Zimmer Biomet Holdings, Inc.",
+  "sector": "Healthcare",
+  "marketcap": 21324808192.0,
+  "employees": 18000.0
+ },
+ {
+  "symbol": "CNP",
+  "name": "CenterPoint Energy, Inc.",
+  "sector": "Utilities",
+  "marketcap": 21207195648.0,
+  "employees": 8827.0
+ },
+ {
+  "symbol": "MKC",
+  "name": "McCormick & Company, Incorporated",
+  "sector": "Consumer Defensive",
+  "marketcap": 21156954112.0,
+  "employees": 13800.0
+ },
+ {
+  "symbol": "ES",
+  "name": "Eversource Energy",
+  "sector": "Utilities",
+  "marketcap": 20866592768.0,
+  "employees": 10000.0
+ },
+ {
+  "symbol": "WDC",
+  "name": "Western Digital Corporation",
+  "sector": "Technology",
+  "marketcap": 20825450496.0,
+  "employees": 51000.0
+ },
+ {
+  "symbol": "TSN",
+  "name": "Tyson Foods, Inc.",
+  "sector": "Consumer Defensive",
+  "marketcap": 20665157632.0,
+  "employees": 138000.0
+ },
+ {
+  "symbol": "TER",
+  "name": "Teradyne, Inc.",
+  "sector": "Technology",
+  "marketcap": 20512342016.0,
+  "employees": 6400.0
+ },
+ {
+  "symbol": "STE",
+  "name": "STERIS plc",
+  "sector": "Healthcare",
+  "marketcap": 20480778240.0,
+  "employees": 18000.0
+ },
+ {
+  "symbol": "PKG",
+  "name": "Packaging Corporation of America",
+  "sector": "Consumer Cyclical",
+  "marketcap": 20473718784.0,
+  "employees": 14900.0
+ },
+ {
+  "symbol": "CLX",
+  "name": "The Clorox Company",
+  "sector": "Consumer Defensive",
+  "marketcap": 20354547712.0,
+  "employees": 7400.0
+ },
+ {
+  "symbol": "NTRS",
+  "name": "Northern Trust Corporation",
+  "sector": "Financial Services",
+  "marketcap": 20313380864.0,
+  "employees": 23300.0
+ },
+ {
+  "symbol": "ZBRA",
+  "name": "Zebra Technologies Corporation",
+  "sector": "Technology",
+  "marketcap": 20273004544.0,
+  "employees": 9750.0
+ },
+ {
+  "symbol": "DVN",
+  "name": "Devon Energy Corporation",
+  "sector": "Energy",
+  "marketcap": 20212811776.0,
+  "employees": 1900.0
+ },
+ {
+  "symbol": "CBOE",
+  "name": "Cboe Global Markets, Inc.",
+  "sector": "Financial Services",
+  "marketcap": 20058884096.0,
+  "employees": 1647.0
+ },
+ {
+  "symbol": "WY",
+  "name": "Weyerhaeuser Company",
+  "sector": "Real Estate",
+  "marketcap": 19981004800.0,
+  "employees": 9300.0
+ },
+ {
+  "symbol": "LUV",
+  "name": "Southwest Airlines Co.",
+  "sector": "Industrials",
+  "marketcap": 19959246848.0,
+  "employees": 73463.0
+ },
+ {
+  "symbol": "ULTA",
+  "name": "Ulta Beauty, Inc.",
+  "sector": "Consumer Cyclical",
+  "marketcap": 19940638720.0,
+  "employees": 20000.0
+ },
+ {
+  "symbol": "CMS",
+  "name": "CMS Energy Corporation",
+  "sector": "Utilities",
+  "marketcap": 19902068736.0,
+  "employees": 8356.0
+ },
+ {
+  "symbol": "INVH",
+  "name": "Invitation Homes Inc.",
+  "sector": "Real Estate",
+  "marketcap": 19689156608.0,
+  "employees": 1555.0
+ },
+ {
+  "symbol": "FSLR",
+  "name": "First Solar, Inc.",
+  "sector": "Technology",
+  "marketcap": 19526307840.0,
+  "employees": 6700.0
+ },
+ {
+  "symbol": "BF-B",
+  "name": "Brown-Forman Corporation",
+  "sector": "Consumer Defensive",
+  "marketcap": 19369400320.0,
+  "employees": 5700.0
+ },
+ {
+  "symbol": "LDOS",
+  "name": "Leidos Holdings, Inc.",
+  "sector": "Technology",
+  "marketcap": 19322431488.0,
+  "employees": 47000.0
+ },
+ {
+  "symbol": "CFG",
+  "name": "Citizens Financial Group, Inc.",
+  "sector": "Financial Services",
+  "marketcap": 19148457984.0,
+  "employees": 17329.0
+ },
+ {
+  "symbol": "LH",
+  "name": "Labcorp Holdings Inc.",
+  "sector": "Healthcare",
+  "marketcap": 19120779264.0,
+  "employees": 67000.0
+ },
+ {
+  "symbol": "VRSN",
+  "name": "VeriSign, Inc.",
+  "sector": "Technology",
+  "marketcap": 19108524032.0,
+  "employees": 907.0
+ },
+ {
+  "symbol": "IP",
+  "name": "International Paper Company",
+  "sector": "Consumer Cyclical",
+  "marketcap": 18916366336.0,
+  "employees": 39000.0
+ },
+ {
+  "symbol": "ESS",
+  "name": "Essex Property Trust, Inc.",
+  "sector": "Real Estate",
+  "marketcap": 18898388992.0,
+  "employees": 1747.0
+ },
+ {
+  "symbol": "PODD",
+  "name": "Insulet Corporation",
+  "sector": "Healthcare",
+  "marketcap": 18698500096.0,
+  "employees": 3000.0
+ },
+ {
+  "symbol": "COO",
+  "name": "The Cooper Companies, Inc.",
+  "sector": "Healthcare",
+  "marketcap": 18649036800.0,
+  "employees": 15000.0
+ },
+ {
+  "symbol": "SMCI",
+  "name": "Super Micro Computer, Inc.",
+  "sector": "Technology",
+  "marketcap": 18497998848.0,
+  "employees": 0
+ },
+ {
+  "symbol": "STX",
+  "name": "Seagate Technology Holdings plc",
+  "sector": "Technology",
+  "marketcap": 18468683776.0,
+  "employees": 30000.0
+ },
+ {
+  "symbol": "MAA",
+  "name": "Mid-America Apartment Communities, Inc.",
+  "sector": "Real Estate",
+  "marketcap": 18401249280.0,
+  "employees": 2427.0
+ },
+ {
+  "symbol": "FDS",
+  "name": "FactSet Research Systems Inc.",
+  "sector": "Financial Services",
+  "marketcap": 18368344064.0,
+  "employees": 12398.0
+ },
+ {
+  "symbol": "NRG",
+  "name": "NRG Energy, Inc.",
+  "sector": "Utilities",
+  "marketcap": 18322094080.0,
+  "employees": 18131.0
+ },
+ {
+  "symbol": "BBY",
+  "name": "Best Buy Co., Inc.",
+  "sector": "Consumer Cyclical",
+  "marketcap": 18290247680.0,
+  "employees": 85000.0
+ },
+ {
+  "symbol": "SNA",
+  "name": "Snap-on Incorporated",
+  "sector": "Industrials",
+  "marketcap": 18038120448.0,
+  "employees": 13200.0
+ },
+ {
+  "symbol": "L",
+  "name": "Loews Corporation",
+  "sector": "Financial Services",
+  "marketcap": 18017040384.0,
+  "employees": 12280.0
+ },
+ {
+  "symbol": "PFG",
+  "name": "Principal Financial Group, Inc.",
+  "sector": "Financial Services",
+  "marketcap": 17680521216.0,
+  "employees": 19800.0
+ },
+ {
+  "symbol": "STLD",
+  "name": "Steel Dynamics, Inc.",
+  "sector": "Basic Materials",
+  "marketcap": 17613223936.0,
+  "employees": 12600.0
+ },
+ {
+  "symbol": "TRMB",
+  "name": "Trimble Inc.",
+  "sector": "Technology",
+  "marketcap": 17495060480.0,
+  "employees": 12700.0
+ },
+ {
+  "symbol": "OMC",
+  "name": "Omnicom Group Inc.",
+  "sector": "Communication Services",
+  "marketcap": 17453082624.0,
+  "employees": 75900.0
+ },
+ {
+  "symbol": "CTRA",
+  "name": "Coterra Energy Inc.",
+  "sector": "Energy",
+  "marketcap": 17439016960.0,
+  "employees": 894.0
+ },
+ {
+  "symbol": "HRL",
+  "name": "Hormel Foods Corporation",
+  "sector": "Consumer Defensive",
+  "marketcap": 17392732160.0,
+  "employees": 20000.0
+ },
+ {
+  "symbol": "ARE",
+  "name": "Alexandria Real Estate Equities, Inc.",
+  "sector": "Real Estate",
+  "marketcap": 17331146752.0,
+  "employees": 568.0
+ },
+ {
+  "symbol": "BLDR",
+  "name": "Builders FirstSource, Inc.",
+  "sector": "Industrials",
+  "marketcap": 17320292352.0,
+  "employees": 29000.0
+ },
+ {
+  "symbol": "JBHT",
+  "name": "J.B. Hunt Transport Services, Inc.",
+  "sector": "Industrials",
+  "marketcap": 17164290048.0,
+  "employees": 34718.0
+ },
+ {
+  "symbol": "GEN",
+  "name": "Gen Digital Inc.",
+  "sector": "Technology",
+  "marketcap": 17151517696.0,
+  "employees": 3400.0
+ },
+ {
+  "symbol": "DGX",
+  "name": "Quest Diagnostics Incorporated",
+  "sector": "Healthcare",
+  "marketcap": 17088257024.0,
+  "employees": 50000.0
+ },
+ {
+  "symbol": "KEY",
+  "name": "KeyCorp",
+  "sector": "Financial Services",
+  "marketcap": 16941026304.0,
+  "employees": 16734.0
+ },
+ {
+  "symbol": "NI",
+  "name": "NiSource Inc.",
+  "sector": "Utilities",
+  "marketcap": 16883395584.0,
+  "employees": 7364.0
+ },
+ {
+  "symbol": "MOH",
+  "name": "Molina Healthcare, Inc.",
+  "sector": "Healthcare",
+  "marketcap": 16858556416.0,
+  "employees": 18000.0
+ },
+ {
+  "symbol": "PNR",
+  "name": "Pentair plc",
+  "sector": "Industrials",
+  "marketcap": 16845300736.0,
+  "employees": 10500.0
+ },
+ {
+  "symbol": "J",
+  "name": "Jacobs Solutions Inc.",
+  "sector": "Industrials",
+  "marketcap": 16835307520.0,
+  "employees": 60000.0
+ },
+ {
+  "symbol": "DG",
+  "name": "Dollar General Corporation",
+  "sector": "Consumer Defensive",
+  "marketcap": 16802347008.0,
+  "employees": 185800.0
+ },
+ {
+  "symbol": "BALL",
+  "name": "Ball Corporation",
+  "sector": "Consumer Cyclical",
+  "marketcap": 16652169216.0,
+  "employees": 21000.0
+ },
+ {
+  "symbol": "NWS",
+  "name": "News Corporation",
+  "sector": "Communication Services",
+  "marketcap": 16374949888.0,
+  "employees": 23900.0
+ },
+ {
+  "symbol": "NWSA",
+  "name": "News Corporation",
+  "sector": "Communication Services",
+  "marketcap": 16357357568.0,
+  "employees": 23900.0
+ },
+ {
+  "symbol": "UDR",
+  "name": "UDR, Inc.",
+  "sector": "Real Estate",
+  "marketcap": 16326182912.0,
+  "employees": 1397.0
+ },
+ {
+  "symbol": "HOLX",
+  "name": "Hologic, Inc.",
+  "sector": "Healthcare",
+  "marketcap": 16260322304.0,
+  "employees": 6990.0
+ },
+ {
+  "symbol": "JBL",
+  "name": "Jabil Inc.",
+  "sector": "Technology",
+  "marketcap": 16195484672.0,
+  "employees": 138000.0
+ },
+ {
+  "symbol": "GPC",
+  "name": "Genuine Parts Company",
+  "sector": "Consumer Cyclical",
+  "marketcap": 16090636288.0,
+  "employees": 60000.0
+ },
+ {
+  "symbol": "IEX",
+  "name": "IDEX Corporation",
+  "sector": "Industrials",
+  "marketcap": 16082113536.0,
+  "employees": 8800.0
+ },
+ {
+  "symbol": "MAS",
+  "name": "Masco Corporation",
+  "sector": "Industrials",
+  "marketcap": 16049567744.0,
+  "employees": 18000.0
+ },
+ {
+  "symbol": "KIM",
+  "name": "Kimco Realty Corporation",
+  "sector": "Real Estate",
+  "marketcap": 15786977280.0,
+  "employees": 660.0
+ },
+ {
+  "symbol": "ALGN",
+  "name": "Align Technology, Inc.",
+  "sector": "Healthcare",
+  "marketcap": 15756283904.0,
+  "employees": 21690.0
+ },
+ {
+  "symbol": "DLTR",
+  "name": "Dollar Tree, Inc.",
+  "sector": "Consumer Defensive",
+  "marketcap": 15684945920.0,
+  "employees": 65894.0
+ },
+ {
+  "symbol": "EXPD",
+  "name": "Expeditors International of Washington, Inc.",
+  "sector": "Industrials",
+  "marketcap": 15604525056.0,
+  "employees": 18690.0
+ },
+ {
+  "symbol": "EG",
+  "name": "Everest Group, Ltd.",
+  "sector": "Financial Services",
+  "marketcap": 15327888384.0,
+  "employees": 2844.0
+ },
+ {
+  "symbol": "MRNA",
+  "name": "Moderna, Inc.",
+  "sector": "Healthcare",
+  "marketcap": 15157980160.0,
+  "employees": 5600.0
+ },
+ {
+  "symbol": "LNT",
+  "name": "Alliant Energy Corporation",
+  "sector": "Utilities",
+  "marketcap": 15126511616.0,
+  "employees": 3281.0
+ },
+ {
+  "symbol": "AVY",
+  "name": "Avery Dennison Corporation",
+  "sector": "Consumer Cyclical",
+  "marketcap": 15115568128.0,
+  "employees": 35000.0
+ },
+ {
+  "symbol": "BAX",
+  "name": "Baxter International Inc.",
+  "sector": "Healthcare",
+  "marketcap": 15062345728.0,
+  "employees": 60000.0
+ },
+ {
+  "symbol": "TPR",
+  "name": "Tapestry, Inc.",
+  "sector": "Consumer Cyclical",
+  "marketcap": 14949259264.0,
+  "employees": 12500.0
+ },
+ {
+  "symbol": "VTRS",
+  "name": "Viatris Inc.",
+  "sector": "Healthcare",
+  "marketcap": 14943747072.0,
+  "employees": 32000.0
+ },
+ {
+  "symbol": "CF",
+  "name": "CF Industries Holdings, Inc.",
+  "sector": "Basic Materials",
+  "marketcap": 14788219904.0,
+  "employees": 2700.0
+ },
+ {
+  "symbol": "FFIV",
+  "name": "F5, Inc.",
+  "sector": "Technology",
+  "marketcap": 14785608704.0,
+  "employees": 0
+ },
+ {
+  "symbol": "DPZ",
+  "name": "Domino's Pizza, Inc.",
+  "sector": "Consumer Cyclical",
+  "marketcap": 14716847104.0,
+  "employees": 6500.0
+ },
+ {
+  "symbol": "AKAM",
+  "name": "Akamai Technologies, Inc.",
+  "sector": "Technology",
+  "marketcap": 14405267456.0,
+  "employees": 10947.0
+ },
+ {
+  "symbol": "RL",
+  "name": "Ralph Lauren Corporation",
+  "sector": "Consumer Cyclical",
+  "marketcap": 14299996160.0,
+  "employees": 14800.0
+ },
+ {
+  "symbol": "TXT",
+  "name": "Textron Inc.",
+  "sector": "Industrials",
+  "marketcap": 14256596992.0,
+  "employees": 35000.0
+ },
+ {
+  "symbol": "SWKS",
+  "name": "Skyworks Solutions, Inc.",
+  "sector": "Technology",
+  "marketcap": 14192988160.0,
+  "employees": 9750.0
+ },
+ {
+  "symbol": "EVRG",
+  "name": "Evergy, Inc.",
+  "sector": "Utilities",
+  "marketcap": 14127425536.0,
+  "employees": 4658.0
+ },
+ {
+  "symbol": "EPAM",
+  "name": "EPAM Systems, Inc.",
+  "sector": "Technology",
+  "marketcap": 14081654784.0,
+  "employees": 53250.0
+ },
+ {
+  "symbol": "DOC",
+  "name": "Healthpeak Properties, Inc.",
+  "sector": "Real Estate",
+  "marketcap": 14072794112.0,
+  "employees": 193.0
+ },
+ {
+  "symbol": "APTV",
+  "name": "Aptiv PLC",
+  "sector": "Consumer Cyclical",
+  "marketcap": 13834219520.0,
+  "employees": 154000.0
+ },
+ {
+  "symbol": "RVTY",
+  "name": "Revvity, Inc.",
+  "sector": "Healthcare",
+  "marketcap": 13698777088.0,
+  "employees": 11000.0
+ },
+ {
+  "symbol": "AMCR",
+  "name": "Amcor plc",
+  "sector": "Consumer Cyclical",
+  "marketcap": 13586195456.0,
+  "employees": 41000.0
+ },
+ {
+  "symbol": "REG",
+  "name": "Regency Centers Corporation",
+  "sector": "Real Estate",
+  "marketcap": 13476028416.0,
+  "employees": 492.0
+ },
+ {
+  "symbol": "POOL",
+  "name": "Pool Corporation",
+  "sector": "Industrials",
+  "marketcap": 13282891776.0,
+  "employees": 6000.0
+ },
+ {
+  "symbol": "INCY",
+  "name": "Incyte Corporation",
+  "sector": "Healthcare",
+  "marketcap": 13262025728.0,
+  "employees": 2524.0
+ },
+ {
+  "symbol": "BXP",
+  "name": "BXP, Inc.",
+  "sector": "Real Estate",
+  "marketcap": 13164555264.0,
+  "employees": 836.0
+ },
+ {
+  "symbol": "KMX",
+  "name": "CarMax, Inc.",
+  "sector": "Consumer Cyclical",
+  "marketcap": 12969826304.0,
+  "employees": 30000.0
+ },
+ {
+  "symbol": "CAG",
+  "name": "Conagra Brands, Inc.",
+  "sector": "Consumer Defensive",
+  "marketcap": 12940145664.0,
+  "employees": 18500.0
+ },
+ {
+  "symbol": "HST",
+  "name": "Host Hotels & Resorts, Inc.",
+  "sector": "Real Estate",
+  "marketcap": 12895228928.0,
+  "employees": 163.0
+ },
+ {
+  "symbol": "JKHY",
+  "name": "Jack Henry & Associates, Inc.",
+  "sector": "Technology",
+  "marketcap": 12894826496.0,
+  "employees": 7170.0
+ },
+ {
+  "symbol": "SWK",
+  "name": "Stanley Black & Decker, Inc.",
+  "sector": "Industrials",
+  "marketcap": 12641447936.0,
+  "employees": 50500.0
+ },
+ {
+  "symbol": "DVA",
+  "name": "DaVita Inc.",
+  "sector": "Healthcare",
+  "marketcap": 12455345152.0,
+  "employees": 70000.0
+ },
+ {
+  "symbol": "CPB",
+  "name": "The Campbell's Company",
+  "sector": "Consumer Defensive",
+  "marketcap": 12371523584.0,
+  "employees": 14400.0
+ },
+ {
+  "symbol": "CHRW",
+  "name": "C.H. Robinson Worldwide, Inc.",
+  "sector": "Industrials",
+  "marketcap": 12333509632.0,
+  "employees": 14537.0
+ },
+ {
+  "symbol": "JNPR",
+  "name": "Juniper Networks, Inc.",
+  "sector": "Technology",
+  "marketcap": 12329754624.0,
+  "employees": 11144.0
+ },
+ {
+  "symbol": "CPT",
+  "name": "Camden Property Trust",
+  "sector": "Real Estate",
+  "marketcap": 12258713600.0,
+  "employees": 1640.0
+ },
+ {
+  "symbol": "TAP",
+  "name": "Molson Coors Beverage Company",
+  "sector": "Consumer Defensive",
+  "marketcap": 12231042048.0,
+  "employees": 16500.0
+ },
+ {
+  "symbol": "NDSN",
+  "name": "Nordson Corporation",
+  "sector": "Industrials",
+  "marketcap": 11957965824.0,
+  "employees": 7700.0
+ },
+ {
+  "symbol": "PAYC",
+  "name": "Paycom Software, Inc.",
+  "sector": "Technology",
+  "marketcap": 11949295616.0,
+  "employees": 7308.0
+ },
+ {
+  "symbol": "UHS",
+  "name": "Universal Health Services, Inc.",
+  "sector": "Healthcare",
+  "marketcap": 11881064448.0,
+  "employees": 96700.0
+ },
+ {
+  "symbol": "NCLH",
+  "name": "Norwegian Cruise Line Holdings Ltd.",
+  "sector": "Consumer Cyclical",
+  "marketcap": 11832542208.0,
+  "employees": 41000.0
+ },
+ {
+  "symbol": "DAY",
+  "name": "Dayforce Inc",
+  "sector": "Technology",
+  "marketcap": 11802267648.0,
+  "employees": 9084.0
+ },
+ {
+  "symbol": "SJM",
+  "name": "The J. M. Smucker Company",
+  "sector": "Consumer Defensive",
+  "marketcap": 11694054400.0,
+  "employees": 9000.0
+ },
+ {
+  "symbol": "TECH",
+  "name": "Bio-Techne Corporation",
+  "sector": "Healthcare",
+  "marketcap": 11626127360.0,
+  "employees": 3100.0
+ },
+ {
+  "symbol": "SOLV",
+  "name": "Solventum Corporation",
+  "sector": "Healthcare",
+  "marketcap": 11545350144.0,
+  "employees": 0
+ },
+ {
+  "symbol": "ALLE",
+  "name": "Allegion plc",
+  "sector": "Industrials",
+  "marketcap": 11490313216.0,
+  "employees": 12200.0
+ },
+ {
+  "symbol": "BG",
+  "name": "Bunge Global SA",
+  "sector": "Consumer Defensive",
+  "marketcap": 11044496384.0,
+  "employees": 23000.0
+ },
+ {
+  "symbol": "AIZ",
+  "name": "Assurant, Inc.",
+  "sector": "Financial Services",
+  "marketcap": 10886776832.0,
+  "employees": 13600.0
+ },
+ {
+  "symbol": "IPG",
+  "name": "The Interpublic Group of Companies, Inc.",
+  "sector": "Communication Services",
+  "marketcap": 10829010944.0,
+  "employees": 55100.0
+ },
+ {
+  "symbol": "BEN",
+  "name": "Franklin Resources, Inc.",
+  "sector": "Financial Services",
+  "marketcap": 10736411648.0,
+  "employees": 10200.0
+ },
+ {
+  "symbol": "EMN",
+  "name": "Eastman Chemical Company",
+  "sector": "Basic Materials",
+  "marketcap": 10636177408.0,
+  "employees": 14000.0
+ },
+ {
+  "symbol": "ALB",
+  "name": "Albemarle Corporation",
+  "sector": "Basic Materials",
+  "marketcap": 10419920896.0,
+  "employees": 9000.0
+ },
+ {
+  "symbol": "MGM",
+  "name": "MGM Resorts International",
+  "sector": "Consumer Cyclical",
+  "marketcap": 10170798080.0,
+  "employees": 58000.0
+ },
+ {
+  "symbol": "AOS",
+  "name": "A. O. Smith Corporation",
+  "sector": "Industrials",
+  "marketcap": 9964057600.0,
+  "employees": 12000.0
+ },
+ {
+  "symbol": "WYNN",
+  "name": "Wynn Resorts, Limited",
+  "sector": "Consumer Cyclical",
+  "marketcap": 9768043520.0,
+  "employees": 27800.0
+ },
+ {
+  "symbol": "PNW",
+  "name": "Pinnacle West Capital Corporation",
+  "sector": "Utilities",
+  "marketcap": 9659952128.0,
+  "employees": 6133.0
+ },
+ {
+  "symbol": "ENPH",
+  "name": "Enphase Energy, Inc.",
+  "sector": "Technology",
+  "marketcap": 9653395456.0,
+  "employees": 3157.0
+ },
+ {
+  "symbol": "LKQ",
+  "name": "LKQ Corporation",
+  "sector": "Consumer Cyclical",
+  "marketcap": 9587324928.0,
+  "employees": 49000.0
+ },
+ {
+  "symbol": "FRT",
+  "name": "Federal Realty Investment Trust",
+  "sector": "Real Estate",
+  "marketcap": 9579524096.0,
+  "employees": 297.0
+ },
+ {
+  "symbol": "CRL",
+  "name": "Charles River Laboratories International, Inc.",
+  "sector": "Healthcare",
+  "marketcap": 9499572224.0,
+  "employees": 20400.0
+ },
+ {
+  "symbol": "GNRC",
+  "name": "Generac Holdings Inc.",
+  "sector": "Industrials",
+  "marketcap": 9297047552.0,
+  "employees": 8315.0
+ },
+ {
+  "symbol": "AES",
+  "name": "The AES Corporation",
+  "sector": "Utilities",
+  "marketcap": 9243351040.0,
+  "employees": 9600.0
+ },
+ {
+  "symbol": "GL",
+  "name": "Globe Life Inc.",
+  "sector": "Financial Services",
+  "marketcap": 9182754816.0,
+  "employees": 3636.0
+ },
+ {
+  "symbol": "LW",
+  "name": "Lamb Weston Holdings, Inc.",
+  "sector": "Consumer Defensive",
+  "marketcap": 8856579072.0,
+  "employees": 10700.0
+ },
+ {
+  "symbol": "HSIC",
+  "name": "Henry Schein, Inc.",
+  "sector": "Healthcare",
+  "marketcap": 8705227776.0,
+  "employees": 26000.0
+ },
+ {
+  "symbol": "MKTX",
+  "name": "MarketAxess Holdings Inc.",
+  "sector": "Financial Services",
+  "marketcap": 8677667840.0,
+  "employees": 881.0
+ },
+ {
+  "symbol": "MTCH",
+  "name": "Match Group, Inc.",
+  "sector": "Communication Services",
+  "marketcap": 8476832256.0,
+  "employees": 2600.0
+ },
+ {
+  "symbol": "TFX",
+  "name": "Teleflex Incorporated",
+  "sector": "Healthcare",
+  "marketcap": 8274409984.0,
+  "employees": 14500.0
+ },
+ {
+  "symbol": "WBA",
+  "name": "Walgreens Boots Alliance, Inc.",
+  "sector": "Healthcare",
+  "marketcap": 8246310400.0,
+  "employees": 193000.0
+ },
+ {
+  "symbol": "HAS",
+  "name": "Hasbro, Inc.",
+  "sector": "Consumer Cyclical",
+  "marketcap": 8032467456.0,
+  "employees": 5502.0
+ },
+ {
+  "symbol": "IVZ",
+  "name": "Invesco Ltd.",
+  "sector": "Financial Services",
+  "marketcap": 7788795392.0,
+  "employees": 8524.0
+ },
+ {
+  "symbol": "APA",
+  "name": "APA Corporation",
+  "sector": "Energy",
+  "marketcap": 7783685632.0,
+  "employees": 2271.0
+ },
+ {
+  "symbol": "MOS",
+  "name": "The Mosaic Company",
+  "sector": "Basic Materials",
+  "marketcap": 7645714944.0,
+  "employees": 14049.0
+ },
+ {
+  "symbol": "PARA",
+  "name": "Paramount Global",
+  "sector": "Communication Services",
+  "marketcap": 7596251648.0,
+  "employees": 21900.0
+ },
+ {
+  "symbol": "MHK",
+  "name": "Mohawk Industries, Inc.",
+  "sector": "Consumer Cyclical",
+  "marketcap": 7521534464.0,
+  "employees": 43300.0
+ },
+ {
+  "symbol": "CE",
+  "name": "Celanese Corporation",
+  "sector": "Basic Materials",
+  "marketcap": 7460544000.0,
+  "employees": 12400.0
+ },
+ {
+  "symbol": "HII",
+  "name": "Huntington Ingalls Industries, Inc.",
+  "sector": "Industrials",
+  "marketcap": 7452174848.0,
+  "employees": 44000.0
+ },
+ {
+  "symbol": "CZR",
+  "name": "Caesars Entertainment, Inc.",
+  "sector": "Consumer Cyclical",
+  "marketcap": 6973593600.0,
+  "employees": 51000.0
+ },
+ {
+  "symbol": "BWA",
+  "name": "BorgWarner Inc.",
+  "sector": "Consumer Cyclical",
+  "marketcap": 6972155904.0,
+  "employees": 39900.0
+ },
+ {
+  "symbol": "QRVO",
+  "name": "Qorvo, Inc.",
+  "sector": "Technology",
+  "marketcap": 6697217024.0,
+  "employees": 8700.0
+ },
+ {
+  "symbol": "FMC",
+  "name": "FMC Corporation",
+  "sector": "Basic Materials",
+  "marketcap": 6260525568.0,
+  "employees": 5800.0
+ },
+ {
+  "symbol": "AMTM",
+  "name": "Amentum Holdings, Inc.",
+  "sector": "Industrials",
+  "marketcap": 4664099328.0,
+  "employees": 0
+ }
+]

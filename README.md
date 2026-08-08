@@ -15,7 +15,18 @@ Features:
 
 ## Files
 
-- `sp500-treemap.declare` — the app.
+- `sp500-treemap.declare` — the app (latest). Both variants animate the treemap
+  between Market Cap and Employees sizing the same way: a `Spring` glides a single
+  `metricBlend` scalar (0..1) toward the target metric over ~1s, and every box's size
+  *and* position update every frame because `TreemapLayout` recomputes the whole layout
+  from that one blended value each tick. This variant additionally decouples row
+  *order* from box *size*: a separate `sortWeight` attribute snaps instantly to the
+  target metric (so rows settle into their final order right away), while `weight`
+  keeps blending smoothly — this stops boxes from chaotically swapping rows mid-glide.
+- `sp500-treemap-toggle.declare` — snapshot of the "before" state: same Spring/
+  metricBlend animation, but without `sortWeight` — row order is driven by the blended
+  `weight` itself, so boxes visibly jump rows as their blended value crosses a
+  neighbor's rank. Kept side-by-side with `latest` to demo the problem the fix solves.
 - `treemap-layout.declare` — `TreemapLayout` declaration
 - `sp500_companies.csv` — the raw source data.
 - `prep_data.py` — trims the CSV down to `sp500.json` (symbol, name, sector, marketcap,
@@ -43,17 +54,26 @@ node tools/declarec.mjs path/to/sp500-treemap.declare -o dist
 
 ## Live demo
 
-`docs/` is a prebuilt static bundle (compiled with `declarec`, ~65KB gzipped) — this repo
-is set up to serve it via GitHub Pages ( `main` /`docs`).
-No server involved; it's just `index.html`, one JS bundle, and `sp500.json`.
+`docs/` is a prebuilt static bundle (compiled with `declarec`, ~65KB gzipped per variant)
+— this repo is set up to serve it via GitHub Pages (`main`/`docs`). No server involved;
+each variant is just `index.html`, one JS bundle, and `sp500.json`.
 
-Rebuild `docs/` after editing `sp500-treemap.declare`:
+`docs/index.html` is a landing page linking to each variant's own subfolder:
+
+- `docs/latest/` — built from `sp500-treemap.declare` (with the `sortWeight` fix —
+  rows settle order instantly, size glides)
+- `docs/toggle/` — built from `sp500-treemap-toggle.declare` (without the fix — rows
+  reshuffle mid-glide, for comparison)
+
+Rebuild all variants after editing any `.declare` file:
 
 ```bash
 ./build-pages.sh
 ```
 
-(assumes a sibling checkout of `davidtemkin/declarelang` at `../declarelang`)
+(assumes a sibling checkout of `davidtemkin/declarelang` at `../declarelang`; add new
+variants by extending the `VARIANTS_NAME`/`VARIANTS_FILE`/`VARIANTS_LABEL` arrays at the
+top of the script)
 
 ## Data
 
