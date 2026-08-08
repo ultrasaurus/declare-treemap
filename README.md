@@ -41,6 +41,20 @@ Or build a standalone static bundle (no dev server needed to view it after):
 node tools/declarec.mjs path/to/sp500-treemap.declare -o dist
 ```
 
+## Live demo
+
+`docs/` is a prebuilt static bundle (compiled with `declarec`, ~65KB gzipped) — this repo
+is set up to serve it via GitHub Pages ( `main` /`docs`).
+No server involved; it's just `index.html`, one JS bundle, and `sp500.json`.
+
+Rebuild `docs/` after editing `sp500-treemap.declare`:
+
+```bash
+./build-pages.sh
+```
+
+(assumes a sibling checkout of `davidtemkin/declarelang` at `../declarelang`)
+
 ## Data
 
 `sp500_companies.csv` sourced from
